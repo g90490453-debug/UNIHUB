@@ -1,0 +1,3250 @@
+{
+  "collections": {
+    "University": [
+      {
+        "code": "AKTU",
+        "name": "Dr. A.P.J. Abdul Kalam Technical University",
+        "shortName": "AKTU Lucknow",
+        "location": "Lucknow, Uttar Pradesh",
+        "type": "State Technical",
+        "website": "https://aktu.ac.in",
+        "_id": "e89cb993ae3c3ce41cf3e4ad",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.201Z",
+        "updatedAt": "2026-11-17T17:31:10.201Z"
+      },
+      {
+        "code": "IPU",
+        "name": "Guru Gobind Singh Indraprastha University",
+        "shortName": "GGSIPU Delhi",
+        "location": "New Delhi",
+        "type": "State Public",
+        "website": "https://ipu.ac.in",
+        "_id": "62311824e58a17ee02ce25e1",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.201Z",
+        "updatedAt": "2026-11-17T17:31:10.201Z"
+      },
+      {
+        "code": "IIMT",
+        "name": "IIMT University",
+        "shortName": "IIMT Meerut",
+        "location": "Meerut, Uttar Pradesh",
+        "type": "Private",
+        "website": "https://iimtu.edu.in",
+        "_id": "55b95593237d6e767a65227f",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.201Z",
+        "updatedAt": "2026-11-17T17:31:10.201Z"
+      }
+    ],
+    "PlatformSetting": [
+      {
+        "key": "default",
+        "rewardRates": {
+          "pyq_paper": 15,
+          "complete_semester_set": 75,
+          "syllabus_document": 10,
+          "revision_notes": 35,
+          "mock_question": 4
+        },
+        "allowPilotPricingNotice": true,
+        "_id": "8577a671954180cfbd1ea34d",
+        "createdAt": "2026-11-17T17:31:10.200Z",
+        "updatedAt": "2026-11-17T17:31:10.200Z"
+      }
+    ],
+    "AcademicYear": [
+      {
+        "label": "2023-24",
+        "startYear": 2023,
+        "endYear": 2024,
+        "isCurrent": false,
+        "_id": "86f19491eca4688c693b2bc3",
+        "createdAt": "2026-11-17T17:31:10.201Z",
+        "updatedAt": "2026-11-17T17:31:10.201Z"
+      },
+      {
+        "label": "2024-25",
+        "startYear": 2024,
+        "endYear": 2025,
+        "isCurrent": false,
+        "_id": "e4dc346131ebd1561a815b0b",
+        "createdAt": "2026-11-17T17:31:10.201Z",
+        "updatedAt": "2026-11-17T17:31:10.201Z"
+      },
+      {
+        "label": "2025-26",
+        "startYear": 2025,
+        "endYear": 2026,
+        "isCurrent": true,
+        "_id": "262671a0ca58a5b9e50d4f89",
+        "createdAt": "2026-11-17T17:31:10.201Z",
+        "updatedAt": "2026-11-17T17:31:10.201Z"
+      }
+    ],
+    "Programme": [
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "code": "BTECH",
+        "name": "B.Tech",
+        "durationSemesters": 8,
+        "_id": "42c6bdd221181793a280971b",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.202Z",
+        "updatedAt": "2026-11-17T17:31:10.202Z"
+      },
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "code": "BCA",
+        "name": "BCA",
+        "durationSemesters": 6,
+        "_id": "2b5f7ab1cefff9194af5e570",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.202Z",
+        "updatedAt": "2026-11-17T17:31:10.202Z"
+      },
+      {
+        "universityId": "62311824e58a17ee02ce25e1",
+        "code": "BTECH",
+        "name": "B.Tech",
+        "durationSemesters": 8,
+        "_id": "52f1418a0bc0de27a36dac8b",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.202Z",
+        "updatedAt": "2026-11-17T17:31:10.202Z"
+      },
+      {
+        "universityId": "62311824e58a17ee02ce25e1",
+        "code": "BBA",
+        "name": "BBA",
+        "durationSemesters": 6,
+        "_id": "772143d1511886a01468c1e2",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.202Z",
+        "updatedAt": "2026-11-17T17:31:10.202Z"
+      },
+      {
+        "universityId": "55b95593237d6e767a65227f",
+        "code": "BCOM",
+        "name": "B.Com",
+        "durationSemesters": 6,
+        "_id": "60b109afc1d4db7fb72e6ec1",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.202Z",
+        "updatedAt": "2026-11-17T17:31:10.202Z"
+      },
+      {
+        "universityId": "55b95593237d6e767a65227f",
+        "code": "BTECH",
+        "name": "B.Tech",
+        "durationSemesters": 8,
+        "_id": "168a1406131247f4bd44baa1",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.202Z",
+        "updatedAt": "2026-11-17T17:31:10.202Z"
+      }
+    ],
+    "Branch": [
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "code": "CSE",
+        "name": "Computer Science & Engineering",
+        "_id": "908afa8a1d74fb912889c6ca",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.202Z",
+        "updatedAt": "2026-11-17T17:31:10.202Z"
+      },
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "code": "IT",
+        "name": "Information Technology",
+        "_id": "d7574b394f0c332cb199a00e",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.202Z",
+        "updatedAt": "2026-11-17T17:31:10.202Z"
+      },
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "code": "ECE",
+        "name": "Electronics & Communication",
+        "_id": "7d64c246176cdfa24a3beede",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.203Z",
+        "updatedAt": "2026-11-17T17:31:10.203Z"
+      },
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "2b5f7ab1cefff9194af5e570",
+        "code": "CA",
+        "name": "Computer Applications",
+        "_id": "ff565498029f08f67a29473c",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.203Z",
+        "updatedAt": "2026-11-17T17:31:10.203Z"
+      },
+      {
+        "universityId": "62311824e58a17ee02ce25e1",
+        "programmeId": "52f1418a0bc0de27a36dac8b",
+        "code": "CSE",
+        "name": "Computer Science & Engineering",
+        "_id": "9658c848fff96c19c2599c40",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.203Z",
+        "updatedAt": "2026-11-17T17:31:10.203Z"
+      },
+      {
+        "universityId": "62311824e58a17ee02ce25e1",
+        "programmeId": "772143d1511886a01468c1e2",
+        "code": "BBA-GEN",
+        "name": "General Management",
+        "_id": "d6ab3444b328e1dbddeccbb4",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.203Z",
+        "updatedAt": "2026-11-17T17:31:10.203Z"
+      },
+      {
+        "universityId": "55b95593237d6e767a65227f",
+        "programmeId": "60b109afc1d4db7fb72e6ec1",
+        "code": "BCOM-H",
+        "name": "Commerce & Accounting",
+        "_id": "8be7f1ec273519cbe48dc7c6",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.203Z",
+        "updatedAt": "2026-11-17T17:31:10.203Z"
+      },
+      {
+        "universityId": "55b95593237d6e767a65227f",
+        "programmeId": "168a1406131247f4bd44baa1",
+        "code": "CSE",
+        "name": "Computer Science & Engineering",
+        "_id": "acb1a112a09dc4934b5bffda",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.203Z",
+        "updatedAt": "2026-11-17T17:31:10.203Z"
+      }
+    ],
+    "Semester": [
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "number": 3,
+        "name": "Semester 3",
+        "_id": "15da84bce0f15440ece622ca",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.203Z",
+        "updatedAt": "2026-11-17T17:31:10.203Z"
+      },
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "number": 4,
+        "name": "Semester 4",
+        "_id": "e8c7264a5f6f198477166cb7",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.203Z",
+        "updatedAt": "2026-11-17T17:31:10.203Z"
+      },
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "number": 5,
+        "name": "Semester 5",
+        "_id": "320314e66b95d07b0b77a778",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.203Z",
+        "updatedAt": "2026-11-17T17:31:10.203Z"
+      },
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "2b5f7ab1cefff9194af5e570",
+        "number": 3,
+        "name": "Semester 3",
+        "_id": "d86e7ab453c3814fb8b31f50",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.204Z",
+        "updatedAt": "2026-11-17T17:31:10.204Z"
+      },
+      {
+        "universityId": "62311824e58a17ee02ce25e1",
+        "programmeId": "52f1418a0bc0de27a36dac8b",
+        "number": 4,
+        "name": "Semester 4",
+        "_id": "13548abdf6f02d94e5cce716",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.204Z",
+        "updatedAt": "2026-11-17T17:31:10.204Z"
+      },
+      {
+        "universityId": "62311824e58a17ee02ce25e1",
+        "programmeId": "772143d1511886a01468c1e2",
+        "number": 2,
+        "name": "Semester 2",
+        "_id": "53c2ca0adf351da4e1673a5f",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.204Z",
+        "updatedAt": "2026-11-17T17:31:10.204Z"
+      },
+      {
+        "universityId": "55b95593237d6e767a65227f",
+        "programmeId": "60b109afc1d4db7fb72e6ec1",
+        "number": 2,
+        "name": "Semester 2",
+        "_id": "1eefe54831bbd791b8c120fe",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.204Z",
+        "updatedAt": "2026-11-17T17:31:10.204Z"
+      },
+      {
+        "universityId": "55b95593237d6e767a65227f",
+        "programmeId": "168a1406131247f4bd44baa1",
+        "number": 3,
+        "name": "Semester 3",
+        "_id": "579f95c06ab2570bddb83969",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.204Z",
+        "updatedAt": "2026-11-17T17:31:10.204Z"
+      }
+    ],
+    "CurriculumScheme": [
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "code": "BCS-2022",
+        "name": "AICTE NEP-2022 (BCS Series)",
+        "effectiveFromYear": 2022,
+        "_id": "97e19a64adf977ec695eced4",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.204Z",
+        "updatedAt": "2026-11-17T17:31:10.204Z"
+      },
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "code": "KCS-2018",
+        "name": "AKTU Revised Choice Based (KCS Series)",
+        "effectiveFromYear": 2018,
+        "_id": "eb6e65a5aded3686e2ba262a",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.204Z",
+        "updatedAt": "2026-11-17T17:31:10.204Z"
+      },
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "2b5f7ab1cefff9194af5e570",
+        "code": "BCA-NEP2020",
+        "name": "AKTU BCA NEP-2020",
+        "effectiveFromYear": 2021,
+        "_id": "da1c7bc3a23d7adbd93ef2d5",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.204Z",
+        "updatedAt": "2026-11-17T17:31:10.204Z"
+      },
+      {
+        "universityId": "62311824e58a17ee02ce25e1",
+        "programmeId": "52f1418a0bc0de27a36dac8b",
+        "code": "GGSIPU-2021",
+        "name": "IPU AICTE Outcome Scheme 2021",
+        "effectiveFromYear": 2021,
+        "_id": "36135255de4fcf46e7b52772",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.204Z",
+        "updatedAt": "2026-11-17T17:31:10.204Z"
+      },
+      {
+        "universityId": "62311824e58a17ee02ce25e1",
+        "programmeId": "772143d1511886a01468c1e2",
+        "code": "IPU-BBA-2022",
+        "name": "IPU Management NEP Scheme",
+        "effectiveFromYear": 2022,
+        "_id": "a15a7f657da41ae73266c29d",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.204Z",
+        "updatedAt": "2026-11-17T17:31:10.204Z"
+      },
+      {
+        "universityId": "55b95593237d6e767a65227f",
+        "programmeId": "60b109afc1d4db7fb72e6ec1",
+        "code": "IIMT-CBCS-2022",
+        "name": "IIMT Commerce CBCS 2022",
+        "effectiveFromYear": 2022,
+        "_id": "0c0472cce5686c443477859d",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.205Z",
+        "updatedAt": "2026-11-17T17:31:10.205Z"
+      },
+      {
+        "universityId": "55b95593237d6e767a65227f",
+        "programmeId": "168a1406131247f4bd44baa1",
+        "code": "IIMT-BTECH-2022",
+        "name": "IIMT Engineering Scheme 2022",
+        "effectiveFromYear": 2022,
+        "_id": "d33d9ffc7c49b2998239665e",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.205Z",
+        "updatedAt": "2026-11-17T17:31:10.205Z"
+      }
+    ],
+    "Subject": [
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "branchId": "908afa8a1d74fb912889c6ca",
+        "semesterId": "e8c7264a5f6f198477166cb7",
+        "curriculumSchemeId": "97e19a64adf977ec695eced4",
+        "code": "BCS401",
+        "name": "Operating Systems",
+        "credits": 4,
+        "syllabusUnits": [
+          "Process Management & CPU Scheduling",
+          "Deadlocks & Synchronization",
+          "Memory Management & Paging",
+          "File Systems & Disk Scheduling"
+        ],
+        "_id": "b453e012177c4ea603eea005",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.205Z",
+        "updatedAt": "2026-11-17T17:31:10.205Z"
+      },
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "branchId": "908afa8a1d74fb912889c6ca",
+        "semesterId": "e8c7264a5f6f198477166cb7",
+        "curriculumSchemeId": "97e19a64adf977ec695eced4",
+        "code": "BCS402",
+        "name": "Database Management Systems",
+        "credits": 4,
+        "syllabusUnits": [
+          "ER Model & Relational Algebra",
+          "SQL & Normalization (1NF-BCNF)",
+          "Transaction Management & Concurrency",
+          "Indexing & B+ Trees"
+        ],
+        "_id": "b6755a7df3ecb177483bf5e8",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.205Z",
+        "updatedAt": "2026-11-17T17:31:10.205Z"
+      },
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "branchId": "908afa8a1d74fb912889c6ca",
+        "semesterId": "e8c7264a5f6f198477166cb7",
+        "curriculumSchemeId": "97e19a64adf977ec695eced4",
+        "code": "BCS403",
+        "name": "Theory of Automata & Formal Languages",
+        "credits": 4,
+        "syllabusUnits": [
+          "DFA, NFA & Regular Expressions",
+          "Context-Free Grammars & Pushdown Automata",
+          "Turing Machines & Decidability"
+        ],
+        "_id": "6f2e4bec341131cae49346f7",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.205Z",
+        "updatedAt": "2026-11-17T17:31:10.205Z"
+      },
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "branchId": "908afa8a1d74fb912889c6ca",
+        "semesterId": "15da84bce0f15440ece622ca",
+        "curriculumSchemeId": "97e19a64adf977ec695eced4",
+        "code": "BCS301",
+        "name": "Data Structures",
+        "credits": 4,
+        "syllabusUnits": [
+          "Arrays, Stacks & Queues",
+          "Linked Lists & Trees",
+          "Graphs & Traversals",
+          "Sorting & Hashing"
+        ],
+        "_id": "d70b5301a734d1000f022f9d",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.205Z",
+        "updatedAt": "2026-11-17T17:31:10.205Z"
+      },
+      {
+        "universityId": "62311824e58a17ee02ce25e1",
+        "programmeId": "52f1418a0bc0de27a36dac8b",
+        "branchId": "9658c848fff96c19c2599c40",
+        "semesterId": "13548abdf6f02d94e5cce716",
+        "curriculumSchemeId": "36135255de4fcf46e7b52772",
+        "code": "CIC-206",
+        "name": "Design & Analysis of Algorithms",
+        "credits": 4,
+        "syllabusUnits": [
+          "Asymptotic Analysis & Recurrences",
+          "Divide & Conquer / Greedy",
+          "Dynamic Programming",
+          "NP-Completeness"
+        ],
+        "_id": "73db6bf774734adcb4cc7cae",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.205Z",
+        "updatedAt": "2026-11-17T17:31:10.205Z"
+      },
+      {
+        "universityId": "55b95593237d6e767a65227f",
+        "programmeId": "60b109afc1d4db7fb72e6ec1",
+        "branchId": "8be7f1ec273519cbe48dc7c6",
+        "semesterId": "1eefe54831bbd791b8c120fe",
+        "curriculumSchemeId": "0c0472cce5686c443477859d",
+        "code": "BCM-201",
+        "name": "Corporate Accounting",
+        "credits": 4,
+        "syllabusUnits": [
+          "Issue & Forfeiture of Shares",
+          "Valuation of Goodwill",
+          "Amalgamation & Consolidation"
+        ],
+        "_id": "2f8ed42ab6a17140d25d1212",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.205Z",
+        "updatedAt": "2026-11-17T17:31:10.205Z"
+      }
+    ],
+    "Topic": [
+      {
+        "subjectId": "b453e012177c4ea603eea005",
+        "unitNumber": 1,
+        "name": "CPU Scheduling Algorithms",
+        "syllabusWeightagePercent": 25,
+        "_id": "4ac555589add0f649e1b71e5",
+        "createdAt": "2026-11-17T17:31:10.206Z",
+        "updatedAt": "2026-11-17T17:31:10.206Z"
+      },
+      {
+        "subjectId": "b453e012177c4ea603eea005",
+        "unitNumber": 2,
+        "name": "Banker’s Algorithm & Deadlocks",
+        "syllabusWeightagePercent": 25,
+        "_id": "81c8d1c1c731b888b9fc3a24",
+        "createdAt": "2026-11-17T17:31:10.206Z",
+        "updatedAt": "2026-11-17T17:31:10.206Z"
+      },
+      {
+        "subjectId": "b453e012177c4ea603eea005",
+        "unitNumber": 3,
+        "name": "Virtual Memory & Page Replacement",
+        "syllabusWeightagePercent": 30,
+        "_id": "fbe851a04282ea7b9d76ce41",
+        "createdAt": "2026-11-17T17:31:10.206Z",
+        "updatedAt": "2026-11-17T17:31:10.206Z"
+      },
+      {
+        "subjectId": "b453e012177c4ea603eea005",
+        "unitNumber": 4,
+        "name": "Disk Scheduling & File Allocation",
+        "syllabusWeightagePercent": 20,
+        "_id": "5e4b29da21c0b51fc5a61e8d",
+        "createdAt": "2026-11-17T17:31:10.206Z",
+        "updatedAt": "2026-11-17T17:31:10.206Z"
+      },
+      {
+        "subjectId": "b6755a7df3ecb177483bf5e8",
+        "unitNumber": 2,
+        "name": "Normalization & Functional Dependencies",
+        "syllabusWeightagePercent": 35,
+        "_id": "24235061747d4543674eef86",
+        "createdAt": "2026-11-17T17:31:10.206Z",
+        "updatedAt": "2026-11-17T17:31:10.206Z"
+      },
+      {
+        "subjectId": "b6755a7df3ecb177483bf5e8",
+        "unitNumber": 3,
+        "name": "ACID, Serializability & 2PL",
+        "syllabusWeightagePercent": 35,
+        "_id": "00eb382bcd6b4f81af89da40",
+        "createdAt": "2026-11-17T17:31:10.206Z",
+        "updatedAt": "2026-11-17T17:31:10.206Z"
+      },
+      {
+        "subjectId": "b6755a7df3ecb177483bf5e8",
+        "unitNumber": 4,
+        "name": "B+ Trees & Indexing",
+        "syllabusWeightagePercent": 30,
+        "_id": "19c9611ee2b44d2ae3cb16e5",
+        "createdAt": "2026-11-17T17:31:10.206Z",
+        "updatedAt": "2026-11-17T17:31:10.206Z"
+      },
+      {
+        "subjectId": "6f2e4bec341131cae49346f7",
+        "unitNumber": 1,
+        "name": "Finite Automata & Pumping Lemma",
+        "syllabusWeightagePercent": 40,
+        "_id": "1708739538992a6f9d1ec94f",
+        "createdAt": "2026-11-17T17:31:10.207Z",
+        "updatedAt": "2026-11-17T17:31:10.207Z"
+      },
+      {
+        "subjectId": "6f2e4bec341131cae49346f7",
+        "unitNumber": 2,
+        "name": "CFG Simplification & CNF",
+        "syllabusWeightagePercent": 35,
+        "_id": "2fa802df4c3f388ae6afad24",
+        "createdAt": "2026-11-17T17:31:10.207Z",
+        "updatedAt": "2026-11-17T17:31:10.207Z"
+      },
+      {
+        "subjectId": "6f2e4bec341131cae49346f7",
+        "unitNumber": 3,
+        "name": "Turing Machines & Halting Problem",
+        "syllabusWeightagePercent": 25,
+        "_id": "76165a2902346fb96df00382",
+        "createdAt": "2026-11-17T17:31:10.207Z",
+        "updatedAt": "2026-11-17T17:31:10.207Z"
+      },
+      {
+        "subjectId": "73db6bf774734adcb4cc7cae",
+        "unitNumber": 3,
+        "name": "Dynamic Programming & LCS",
+        "syllabusWeightagePercent": 35,
+        "_id": "895a3dca275a72df35eaa048",
+        "createdAt": "2026-11-17T17:31:10.207Z",
+        "updatedAt": "2026-11-17T17:31:10.207Z"
+      }
+    ],
+    "User": [
+      {
+        "name": "Aarav Sharma",
+        "email": "aarav.sharma@aktu.ac.in",
+        "passwordHash": "$2b$10$N7hpVll86P8XO.aqgkxmR.uoLHar/YwyxBoOxH1PcGv2ztdeHF8pe",
+        "role": "student",
+        "status": "active",
+        "collegeName": "JSS Academy of Technical Education, Noida",
+        "onboardingCompleted": true,
+        "academicProfile": {
+          "universityId": "e89cb993ae3c3ce41cf3e4ad",
+          "programmeId": "42c6bdd221181793a280971b",
+          "branchId": "908afa8a1d74fb912889c6ca",
+          "academicYearId": "262671a0ca58a5b9e50d4f89",
+          "semesterId": "e8c7264a5f6f198477166cb7",
+          "curriculumSchemeId": "97e19a64adf977ec695eced4"
+        },
+        "_id": "5a11d1833ef2723b026f371b",
+        "phone": "",
+        "resetToken": null,
+        "resetTokenExpiry": null,
+        "deletionRequestedAt": null,
+        "lastLoginAt": "2026-11-18T02:15:29.174Z",
+        "createdAt": "2026-11-17T17:31:10.313Z",
+        "updatedAt": "2026-11-18T02:15:29.174Z"
+      },
+      {
+        "name": "Priya Verma",
+        "email": "priya.verma@aktu.ac.in",
+        "passwordHash": "$2b$10$N7hpVll86P8XO.aqgkxmR.uoLHar/YwyxBoOxH1PcGv2ztdeHF8pe",
+        "role": "contributor",
+        "status": "active",
+        "collegeName": "AKGEC Ghaziabad",
+        "onboardingCompleted": true,
+        "academicProfile": {
+          "universityId": "e89cb993ae3c3ce41cf3e4ad",
+          "programmeId": "42c6bdd221181793a280971b",
+          "branchId": "908afa8a1d74fb912889c6ca",
+          "academicYearId": "262671a0ca58a5b9e50d4f89",
+          "semesterId": "e8c7264a5f6f198477166cb7",
+          "curriculumSchemeId": "97e19a64adf977ec695eced4"
+        },
+        "_id": "27c8080d9c24d8e313cb2878",
+        "phone": "",
+        "resetToken": null,
+        "resetTokenExpiry": null,
+        "deletionRequestedAt": null,
+        "lastLoginAt": "2026-11-18T02:15:29.272Z",
+        "createdAt": "2026-11-17T17:31:10.313Z",
+        "updatedAt": "2026-11-18T02:15:29.272Z"
+      },
+      {
+        "name": "Rohan Mehta",
+        "email": "rohan.mehta@ipu.ac.in",
+        "passwordHash": "$2b$10$N7hpVll86P8XO.aqgkxmR.uoLHar/YwyxBoOxH1PcGv2ztdeHF8pe",
+        "role": "campus_lead",
+        "status": "active",
+        "collegeName": "MAIT New Delhi",
+        "onboardingCompleted": true,
+        "academicProfile": {
+          "universityId": "e89cb993ae3c3ce41cf3e4ad",
+          "programmeId": "42c6bdd221181793a280971b",
+          "branchId": "908afa8a1d74fb912889c6ca",
+          "academicYearId": "262671a0ca58a5b9e50d4f89",
+          "semesterId": "e8c7264a5f6f198477166cb7",
+          "curriculumSchemeId": "97e19a64adf977ec695eced4"
+        },
+        "_id": "843a29c3b4095359b9491b2f",
+        "phone": "",
+        "resetToken": null,
+        "resetTokenExpiry": null,
+        "deletionRequestedAt": null,
+        "lastLoginAt": "2026-11-18T02:15:29.366Z",
+        "createdAt": "2026-11-17T17:31:10.313Z",
+        "updatedAt": "2026-11-18T02:15:29.366Z"
+      },
+      {
+        "name": "Dr. Kavita Nair",
+        "email": "dr.kavita.nair@unihub.edu",
+        "passwordHash": "$2b$10$N7hpVll86P8XO.aqgkxmR.uoLHar/YwyxBoOxH1PcGv2ztdeHF8pe",
+        "role": "reviewer",
+        "status": "active",
+        "collegeName": "UNIHUB Academic Review Board",
+        "onboardingCompleted": true,
+        "_id": "d6a789289f54fe65a7c36104",
+        "phone": "",
+        "academicProfile": {
+          "universityId": null,
+          "programmeId": null,
+          "branchId": null,
+          "academicYearId": null,
+          "semesterId": null,
+          "curriculumSchemeId": null
+        },
+        "resetToken": null,
+        "resetTokenExpiry": null,
+        "deletionRequestedAt": null,
+        "lastLoginAt": "2026-11-18T02:15:29.462Z",
+        "createdAt": "2026-11-17T17:31:10.315Z",
+        "updatedAt": "2026-11-18T02:15:29.462Z"
+      },
+      {
+        "name": "Vikramaditya Rao",
+        "email": "admin@unihub.edu",
+        "passwordHash": "$2b$10$N7hpVll86P8XO.aqgkxmR.uoLHar/YwyxBoOxH1PcGv2ztdeHF8pe",
+        "role": "admin",
+        "status": "active",
+        "collegeName": "UNIHUB Central Operations",
+        "onboardingCompleted": true,
+        "_id": "d551e6fe220a787ee5aa2ba7",
+        "phone": "",
+        "academicProfile": {
+          "universityId": null,
+          "programmeId": null,
+          "branchId": null,
+          "academicYearId": null,
+          "semesterId": null,
+          "curriculumSchemeId": null
+        },
+        "resetToken": null,
+        "resetTokenExpiry": null,
+        "deletionRequestedAt": null,
+        "lastLoginAt": "2026-11-18T02:15:29.566Z",
+        "createdAt": "2026-11-17T17:31:10.315Z",
+        "updatedAt": "2026-11-18T02:15:29.566Z"
+      },
+      {
+        "name": "QA Student",
+        "email": "qa_1794968044301@aktu.ac.in",
+        "passwordHash": "$2b$10$zQXp4ouki5dktTUjDw9IIervOV2sjv1PPEyuxX8I8x/xpafjwlZ4i",
+        "role": "student",
+        "status": "active",
+        "collegeName": "",
+        "onboardingCompleted": false,
+        "lastLoginAt": "2026-11-18T02:14:04.683Z",
+        "_id": "2c157378a1f6131e6a414279",
+        "phone": "",
+        "academicProfile": {
+          "universityId": null,
+          "programmeId": null,
+          "branchId": null,
+          "academicYearId": null,
+          "semesterId": null,
+          "curriculumSchemeId": null
+        },
+        "resetToken": "E32F046A",
+        "resetTokenExpiry": "2026-11-18T02:44:04.696Z",
+        "deletionRequestedAt": null,
+        "createdAt": "2026-11-18T02:14:04.683Z",
+        "updatedAt": "2026-11-18T02:14:04.697Z"
+      },
+      {
+        "name": "QA Student",
+        "email": "qa_1794968060342@aktu.ac.in",
+        "passwordHash": "$2b$10$BgjP7sIx1VXYVmmxcE97Y.1efEIEDScRXwkzlUxSSNFrH4vniw/lK",
+        "role": "student",
+        "status": "active",
+        "collegeName": "",
+        "onboardingCompleted": false,
+        "lastLoginAt": "2026-11-18T02:14:20.510Z",
+        "_id": "dd4d06946f6108438d44a3e2",
+        "phone": "",
+        "academicProfile": {
+          "universityId": null,
+          "programmeId": null,
+          "branchId": null,
+          "academicYearId": null,
+          "semesterId": null,
+          "curriculumSchemeId": null
+        },
+        "resetToken": "835C17E6",
+        "resetTokenExpiry": "2026-11-18T02:44:20.520Z",
+        "deletionRequestedAt": null,
+        "createdAt": "2026-11-18T02:14:20.510Z",
+        "updatedAt": "2026-11-18T02:14:20.520Z"
+      },
+      {
+        "name": "QA Student",
+        "email": "qa_1794968080844@aktu.ac.in",
+        "passwordHash": "$2b$10$Ui7eu.HKVRMdz3NeaVVg4urDTo7v.cjaR7jImbVB7GDkv02qH1iBy",
+        "role": "student",
+        "status": "active",
+        "collegeName": "",
+        "onboardingCompleted": false,
+        "lastLoginAt": "2026-11-18T02:14:40.939Z",
+        "_id": "e7ddfdd7a0dd0ac57bc7ca9e",
+        "phone": "",
+        "academicProfile": {
+          "universityId": null,
+          "programmeId": null,
+          "branchId": null,
+          "academicYearId": null,
+          "semesterId": null,
+          "curriculumSchemeId": null
+        },
+        "resetToken": "8830D615",
+        "resetTokenExpiry": "2026-11-18T02:44:40.948Z",
+        "deletionRequestedAt": null,
+        "createdAt": "2026-11-18T02:14:40.939Z",
+        "updatedAt": "2026-11-18T02:14:40.948Z"
+      },
+      {
+        "name": "QA Student",
+        "email": "qa_1794968097805@aktu.ac.in",
+        "passwordHash": "$2b$10$jn8JDTMHMxRL6L1YSRs7/Oy77UOXfTHfJdVWNaVLsHvflvSZ5v.rG",
+        "role": "student",
+        "status": "active",
+        "collegeName": "",
+        "onboardingCompleted": false,
+        "lastLoginAt": "2026-11-18T02:14:57.920Z",
+        "_id": "6c719c2b4951f9405a977c3c",
+        "phone": "",
+        "academicProfile": {
+          "universityId": null,
+          "programmeId": null,
+          "branchId": null,
+          "academicYearId": null,
+          "semesterId": null,
+          "curriculumSchemeId": null
+        },
+        "resetToken": "15DA2C47",
+        "resetTokenExpiry": "2026-11-18T02:44:57.929Z",
+        "deletionRequestedAt": null,
+        "createdAt": "2026-11-18T02:14:57.920Z",
+        "updatedAt": "2026-11-18T02:14:57.929Z"
+      },
+      {
+        "name": "QA Student",
+        "email": "qa_1794968128964@aktu.ac.in",
+        "passwordHash": "$2b$10$pF9mV44EU7u63yxrnPlYE.iCNwX7uhhJcHsO1MzbJqoIKrd5iyTcm",
+        "role": "student",
+        "status": "active",
+        "collegeName": "",
+        "onboardingCompleted": false,
+        "lastLoginAt": "2026-11-18T02:15:29.064Z",
+        "_id": "46050e5c5fb2c917e6abd7c9",
+        "phone": "",
+        "academicProfile": {
+          "universityId": null,
+          "programmeId": null,
+          "branchId": null,
+          "academicYearId": null,
+          "semesterId": null,
+          "curriculumSchemeId": null
+        },
+        "resetToken": "580D5280",
+        "resetTokenExpiry": "2026-11-18T02:45:29.079Z",
+        "deletionRequestedAt": null,
+        "createdAt": "2026-11-18T02:15:29.064Z",
+        "updatedAt": "2026-11-18T02:15:29.079Z"
+      }
+    ],
+    "Package": [
+      {
+        "code": "free",
+        "name": "Free Access",
+        "tagline": "Explore curriculum catalogue and sample resources",
+        "priceInr": 0,
+        "validityMonths": 12,
+        "semesterSlots": 1,
+        "includesPyqs": false,
+        "includesMockTests": false,
+        "includesTrendPractice": false,
+        "includesDetailedAnalytics": false,
+        "features": [
+          "Browse university catalogue",
+          "Subject syllabus overview",
+          "Sample PYQ preview",
+          "1 sample mock test"
+        ],
+        "isPilotPrice": true,
+        "displayOrder": 1,
+        "_id": "79c2225cab7f968bed2f201e",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.316Z",
+        "updatedAt": "2026-11-17T17:31:10.316Z"
+      },
+      {
+        "code": "pyq_pass",
+        "name": "Semester PYQ Pass",
+        "tagline": "Complete previous year papers and verified solutions",
+        "priceInr": 99,
+        "validityMonths": 6,
+        "semesterSlots": 1,
+        "includesPyqs": true,
+        "includesMockTests": false,
+        "includesTrendPractice": false,
+        "includesDetailedAnalytics": false,
+        "features": [
+          "All approved PYQs for selected semester",
+          "PDF preview & downloads",
+          "Verified step-by-step solutions",
+          "Basic historical topic frequency"
+        ],
+        "isPilotPrice": true,
+        "displayOrder": 2,
+        "_id": "02d5367a2c772499926a3a9d",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.316Z",
+        "updatedAt": "2026-11-17T17:31:10.316Z"
+      },
+      {
+        "code": "test_pass",
+        "name": "Semester Test Pass",
+        "tagline": "Subject-wise and full-semester timed mock tests",
+        "priceInr": 99,
+        "validityMonths": 6,
+        "semesterSlots": 1,
+        "includesPyqs": false,
+        "includesMockTests": true,
+        "includesTrendPractice": false,
+        "includesDetailedAnalytics": false,
+        "features": [
+          "Subject-wise timed mock tests",
+          "Full-semester exam simulations",
+          "Objective auto-scoring & review",
+          "Complete attempt history"
+        ],
+        "isPilotPrice": true,
+        "displayOrder": 3,
+        "_id": "9b8130aaae404a30d5f2965a",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.316Z",
+        "updatedAt": "2026-11-17T17:31:10.316Z"
+      },
+      {
+        "code": "complete_pass",
+        "name": "Semester Complete Pass",
+        "tagline": "PYQs, mock tests, verified solutions & deep analytics",
+        "priceInr": 199,
+        "validityMonths": 6,
+        "semesterSlots": 1,
+        "includesPyqs": true,
+        "includesMockTests": true,
+        "includesTrendPractice": true,
+        "includesDetailedAnalytics": true,
+        "features": [
+          "Everything in PYQ Pass & Test Pass",
+          "Trend-based practice question sets",
+          "Detailed topic-wise performance analytics",
+          "Upgrade credit from PYQ or Test Pass"
+        ],
+        "isPilotPrice": true,
+        "displayOrder": 4,
+        "_id": "9252ff97a669eeaff8e5c8a3",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.316Z",
+        "updatedAt": "2026-11-17T17:31:10.316Z"
+      },
+      {
+        "code": "large_semester_pass",
+        "name": "Larger Semester Package",
+        "tagline": "For semesters with 7+ core papers or expanded lab/theory banks",
+        "priceInr": 279,
+        "validityMonths": 6,
+        "semesterSlots": 1,
+        "includesPyqs": true,
+        "includesMockTests": true,
+        "includesTrendPractice": true,
+        "includesDetailedAnalytics": true,
+        "features": [
+          "Full Complete Pass coverage",
+          "Extended 7+ subject question banks",
+          "Multi-year supplementary paper archive",
+          "Priority descriptive rubric review"
+        ],
+        "isPilotPrice": true,
+        "displayOrder": 5,
+        "_id": "81ab6a826a7790fa4148dbcc",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.316Z",
+        "updatedAt": "2026-11-17T17:31:10.316Z"
+      },
+      {
+        "code": "two_semester_bundle",
+        "name": "Two-Semester Bundle",
+        "tagline": "Full academic year coverage across two selected semesters",
+        "priceInr": 349,
+        "validityMonths": 12,
+        "semesterSlots": 2,
+        "includesPyqs": true,
+        "includesMockTests": true,
+        "includesTrendPractice": true,
+        "includesDetailedAnalytics": true,
+        "features": [
+          "Covers 2 consecutive semesters",
+          "All PYQs, mock tests & verified solutions",
+          "Full year trend comparison charts",
+          "12-month validity"
+        ],
+        "isPilotPrice": true,
+        "displayOrder": 6,
+        "_id": "ba759aecac3d99e2917eb411",
+        "isActive": true,
+        "createdAt": "2026-11-17T17:31:10.317Z",
+        "updatedAt": "2026-11-17T17:31:10.317Z"
+      }
+    ],
+    "Purchase": [
+      {
+        "userId": "5a11d1833ef2723b026f371b",
+        "packageId": "02d5367a2c772499926a3a9d",
+        "packageCode": "pyq_pass",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "semesterIds": [
+          "e8c7264a5f6f198477166cb7"
+        ],
+        "isUpgrade": false,
+        "basePriceInr": 99,
+        "creditAppliedInr": 0,
+        "finalAmountInr": 99,
+        "status": "paid",
+        "autoRenewConsent": false,
+        "receiptNumber": "UH-2026-1042",
+        "_id": "4be18d9bb46232aa28f06b92",
+        "upgradedFromPurchaseId": null,
+        "createdAt": "2026-11-17T17:31:10.317Z",
+        "updatedAt": "2026-11-17T17:31:10.317Z"
+      },
+      {
+        "userId": "e7ddfdd7a0dd0ac57bc7ca9e",
+        "packageId": "02d5367a2c772499926a3a9d",
+        "packageCode": "pyq_pass",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "semesterIds": [
+          "15da84bce0f15440ece622ca"
+        ],
+        "isUpgrade": false,
+        "upgradedFromPurchaseId": null,
+        "basePriceInr": 99,
+        "creditAppliedInr": 0,
+        "finalAmountInr": 99,
+        "status": "paid",
+        "autoRenewConsent": false,
+        "receiptNumber": "UH-2026-5171",
+        "_id": "0d8978bc9195866970c1c473",
+        "createdAt": "2026-11-18T02:14:41.471Z",
+        "updatedAt": "2026-11-18T02:14:41.478Z"
+      },
+      {
+        "userId": "6c719c2b4951f9405a977c3c",
+        "packageId": "02d5367a2c772499926a3a9d",
+        "packageCode": "pyq_pass",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "semesterIds": [
+          "15da84bce0f15440ece622ca"
+        ],
+        "isUpgrade": false,
+        "upgradedFromPurchaseId": null,
+        "basePriceInr": 99,
+        "creditAppliedInr": 0,
+        "finalAmountInr": 99,
+        "status": "paid",
+        "autoRenewConsent": false,
+        "receiptNumber": "UH-2026-6193",
+        "_id": "9816f2724b1889e910594eb7",
+        "createdAt": "2026-11-18T02:14:58.476Z",
+        "updatedAt": "2026-11-18T02:14:58.485Z"
+      },
+      {
+        "userId": "46050e5c5fb2c917e6abd7c9",
+        "packageId": "02d5367a2c772499926a3a9d",
+        "packageCode": "pyq_pass",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "semesterIds": [
+          "15da84bce0f15440ece622ca"
+        ],
+        "isUpgrade": false,
+        "upgradedFromPurchaseId": null,
+        "basePriceInr": 99,
+        "creditAppliedInr": 0,
+        "finalAmountInr": 99,
+        "status": "paid",
+        "autoRenewConsent": false,
+        "receiptNumber": "UH-2026-2256",
+        "_id": "b4f31b2a4d889f83812efb8d",
+        "createdAt": "2026-11-18T02:15:29.624Z",
+        "updatedAt": "2026-11-18T02:15:29.633Z"
+      }
+    ],
+    "Payment": [
+      {
+        "purchaseId": "4be18d9bb46232aa28f06b92",
+        "userId": "5a11d1833ef2723b026f371b",
+        "gateway": "razorpay_sandbox",
+        "method": "upi",
+        "razorpayOrderId": "order_rzp_seeded_1042",
+        "razorpayPaymentId": "pay_rzp_seeded_1042",
+        "razorpaySignature": "verified_hmac_seed",
+        "signatureVerified": true,
+        "amountInr": 99,
+        "currency": "INR",
+        "status": "captured",
+        "_id": "fa1f282cd7c5ddc7133e0bb5",
+        "failureReason": "",
+        "refundId": "",
+        "refundReason": "",
+        "refundedAt": null,
+        "createdAt": "2026-11-17T17:31:10.317Z",
+        "updatedAt": "2026-11-17T17:31:10.317Z"
+      },
+      {
+        "purchaseId": "0d8978bc9195866970c1c473",
+        "userId": "e7ddfdd7a0dd0ac57bc7ca9e",
+        "gateway": "razorpay_sandbox",
+        "method": "upi",
+        "razorpayOrderId": "order_rzp_1b6895e37e7f71f8",
+        "amountInr": 99,
+        "currency": "INR",
+        "status": "captured",
+        "_id": "bf8b418787dde0888c027908",
+        "razorpayPaymentId": "pay_rzp_81d67a0ddf62",
+        "razorpaySignature": "aa3ec7f1dda30666daac7e37aba4140a62044a7ef2706215ec53a6fb80089def",
+        "signatureVerified": true,
+        "failureReason": "",
+        "refundId": "",
+        "refundReason": "",
+        "refundedAt": null,
+        "createdAt": "2026-11-18T02:14:41.472Z",
+        "updatedAt": "2026-11-18T02:14:41.477Z"
+      },
+      {
+        "purchaseId": "9816f2724b1889e910594eb7",
+        "userId": "6c719c2b4951f9405a977c3c",
+        "gateway": "razorpay_sandbox",
+        "method": "upi",
+        "razorpayOrderId": "order_rzp_71075f68ed0cb51b",
+        "amountInr": 99,
+        "currency": "INR",
+        "status": "captured",
+        "_id": "c105efa0603621c0b4029676",
+        "razorpayPaymentId": "pay_rzp_c15cf5846186",
+        "razorpaySignature": "50105ebf944505fa70fb0eab0316a52573714b0ac5dcbf1b575b07cb2ce874e1",
+        "signatureVerified": true,
+        "failureReason": "",
+        "refundId": "",
+        "refundReason": "",
+        "refundedAt": null,
+        "createdAt": "2026-11-18T02:14:58.478Z",
+        "updatedAt": "2026-11-18T02:14:58.484Z"
+      },
+      {
+        "purchaseId": "b4f31b2a4d889f83812efb8d",
+        "userId": "46050e5c5fb2c917e6abd7c9",
+        "gateway": "razorpay_sandbox",
+        "method": "upi",
+        "razorpayOrderId": "order_rzp_e3f03782000488b1",
+        "amountInr": 99,
+        "currency": "INR",
+        "status": "captured",
+        "_id": "bcea254bcf1f86ec15178698",
+        "razorpayPaymentId": "pay_rzp_ea39238373a2",
+        "razorpaySignature": "8b9070d8f059c59b9cf876f452c2743649954648001fb6f3470f8d41d5b3ce84",
+        "signatureVerified": true,
+        "failureReason": "",
+        "refundId": "",
+        "refundReason": "",
+        "refundedAt": null,
+        "createdAt": "2026-11-18T02:15:29.625Z",
+        "updatedAt": "2026-11-18T02:15:29.631Z"
+      }
+    ],
+    "Entitlement": [
+      {
+        "userId": "5a11d1833ef2723b026f371b",
+        "purchaseId": "4be18d9bb46232aa28f06b92",
+        "packageId": "02d5367a2c772499926a3a9d",
+        "packageCode": "pyq_pass",
+        "packageName": "Semester PYQ Pass",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "semesterIds": [
+          "e8c7264a5f6f198477166cb7"
+        ],
+        "includesPyqs": true,
+        "includesMockTests": false,
+        "includesTrendPractice": false,
+        "includesDetailedAnalytics": false,
+        "activatedAt": "2026-11-17T17:31:10.317Z",
+        "expiresAt": "2027-05-16T17:31:10.317Z",
+        "status": "active",
+        "_id": "f529b9e0130ded2b7788a92e",
+        "createdAt": "2026-11-17T17:31:10.317Z",
+        "updatedAt": "2026-11-17T17:31:10.317Z"
+      },
+      {
+        "userId": "e7ddfdd7a0dd0ac57bc7ca9e",
+        "purchaseId": "0d8978bc9195866970c1c473",
+        "packageId": "02d5367a2c772499926a3a9d",
+        "packageCode": "pyq_pass",
+        "packageName": "Semester PYQ Pass",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "semesterIds": [
+          "15da84bce0f15440ece622ca"
+        ],
+        "includesPyqs": true,
+        "includesMockTests": false,
+        "includesTrendPractice": false,
+        "includesDetailedAnalytics": false,
+        "activatedAt": "2026-11-18T02:14:41.479Z",
+        "expiresAt": "2027-05-17T02:14:41.479Z",
+        "status": "active",
+        "_id": "0ab1317a6e79fa16da54fa50",
+        "createdAt": "2026-11-18T02:14:41.479Z",
+        "updatedAt": "2026-11-18T02:14:41.479Z"
+      },
+      {
+        "userId": "6c719c2b4951f9405a977c3c",
+        "purchaseId": "9816f2724b1889e910594eb7",
+        "packageId": "02d5367a2c772499926a3a9d",
+        "packageCode": "pyq_pass",
+        "packageName": "Semester PYQ Pass",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "semesterIds": [
+          "15da84bce0f15440ece622ca"
+        ],
+        "includesPyqs": true,
+        "includesMockTests": false,
+        "includesTrendPractice": false,
+        "includesDetailedAnalytics": false,
+        "activatedAt": "2026-11-18T02:14:58.486Z",
+        "expiresAt": "2027-05-17T02:14:58.486Z",
+        "status": "active",
+        "_id": "567e9c48297c6e81581b125a",
+        "createdAt": "2026-11-18T02:14:58.486Z",
+        "updatedAt": "2026-11-18T02:14:58.486Z"
+      },
+      {
+        "userId": "46050e5c5fb2c917e6abd7c9",
+        "purchaseId": "b4f31b2a4d889f83812efb8d",
+        "packageId": "02d5367a2c772499926a3a9d",
+        "packageCode": "pyq_pass",
+        "packageName": "Semester PYQ Pass",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "semesterIds": [
+          "15da84bce0f15440ece622ca"
+        ],
+        "includesPyqs": true,
+        "includesMockTests": false,
+        "includesTrendPractice": false,
+        "includesDetailedAnalytics": false,
+        "activatedAt": "2026-11-18T02:15:29.635Z",
+        "expiresAt": "2027-05-17T02:15:29.635Z",
+        "status": "active",
+        "_id": "80afdb9bd749cb326ffd4902",
+        "createdAt": "2026-11-18T02:15:29.635Z",
+        "updatedAt": "2026-11-18T02:15:29.635Z"
+      }
+    ],
+    "PYQPaper": [
+      {
+        "title": "Operating Systems — End-Semester Examination 2025",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "branchId": "908afa8a1d74fb912889c6ca",
+        "semesterId": "e8c7264a5f6f198477166cb7",
+        "curriculumSchemeId": "97e19a64adf977ec695eced4",
+        "subjectId": "b453e012177c4ea603eea005",
+        "examYear": 2025,
+        "examSession": "Even Semester",
+        "paperCode": "BCS401-2025",
+        "totalMarks": 70,
+        "durationMinutes": 180,
+        "source": "AKTU Examination Archive (Verified Scan)",
+        "uploaderId": "27c8080d9c24d8e313cb2878",
+        "uploaderName": "Priya Verma",
+        "qualityStatus": "approved",
+        "permissionStatus": "verified_public",
+        "isSampleFree": true,
+        "downloadCount": 342,
+        "sectionsSummary": [
+          "Section A: 7 compulsory 2-mark conceptual questions (14 Marks)",
+          "Section B: Attempt any 3 of 5 analytical questions (21 Marks)",
+          "Section C: 5 unit-wise long problems with internal choice (35 Marks)"
+        ],
+        "sampleQuestions": [
+          "Differentiate between preemptive and non-preemptive CPU scheduling with a Gantt chart for SRTF.",
+          "State the four necessary conditions for deadlock and apply Banker’s safety algorithm to the given allocation matrix.",
+          "Calculate page faults for the reference string 7,0,1,2,0,3,0,4,2,3 using LRU and Optimal page replacement (3 frames).",
+          "Compare SSTF, SCAN, and C-SCAN disk scheduling algorithms with total head movement calculations."
+        ],
+        "topicTagIds": [
+          "4ac555589add0f649e1b71e5",
+          "81c8d1c1c731b888b9fc3a24",
+          "fbe851a04282ea7b9d76ce41",
+          "5e4b29da21c0b51fc5a61e8d"
+        ],
+        "_id": "4a23828b419777d4ba1f66ad",
+        "fileUrl": "",
+        "storedFilename": "",
+        "fileHash": "",
+        "createdAt": "2026-11-17T17:31:10.318Z",
+        "updatedAt": "2026-11-17T17:31:10.318Z"
+      },
+      {
+        "title": "Operating Systems — End-Semester Examination 2024",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "branchId": "908afa8a1d74fb912889c6ca",
+        "semesterId": "e8c7264a5f6f198477166cb7",
+        "curriculumSchemeId": "97e19a64adf977ec695eced4",
+        "subjectId": "b453e012177c4ea603eea005",
+        "examYear": 2024,
+        "examSession": "Even Semester",
+        "paperCode": "BCS401-2024",
+        "totalMarks": 70,
+        "durationMinutes": 180,
+        "source": "AKTU Examination Archive",
+        "uploaderId": "27c8080d9c24d8e313cb2878",
+        "uploaderName": "Priya Verma",
+        "qualityStatus": "approved",
+        "permissionStatus": "verified_public",
+        "isSampleFree": false,
+        "downloadCount": 518,
+        "sectionsSummary": [
+          "Section A: 14 Marks",
+          "Section B: 21 Marks",
+          "Section C: 35 Marks"
+        ],
+        "sampleQuestions": [
+          "Explain Belady’s Anomaly with a concrete FIFO page reference example.",
+          "Solve the Producer-Consumer problem using counting and binary semaphores.",
+          "Analyze multi-level feedback queue scheduling and starvation prevention via aging."
+        ],
+        "topicTagIds": [
+          "4ac555589add0f649e1b71e5",
+          "81c8d1c1c731b888b9fc3a24",
+          "fbe851a04282ea7b9d76ce41"
+        ],
+        "_id": "4fc209534b43be68c4485399",
+        "fileUrl": "",
+        "storedFilename": "",
+        "fileHash": "",
+        "createdAt": "2026-11-17T17:31:10.318Z",
+        "updatedAt": "2026-11-17T17:31:10.318Z"
+      },
+      {
+        "title": "Database Management Systems — End-Semester Examination 2025",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "branchId": "908afa8a1d74fb912889c6ca",
+        "semesterId": "e8c7264a5f6f198477166cb7",
+        "curriculumSchemeId": "97e19a64adf977ec695eced4",
+        "subjectId": "b6755a7df3ecb177483bf5e8",
+        "examYear": 2025,
+        "examSession": "Even Semester",
+        "paperCode": "BCS402-2025",
+        "totalMarks": 70,
+        "durationMinutes": 180,
+        "source": "AKTU Examination Archive",
+        "uploaderId": "27c8080d9c24d8e313cb2878",
+        "uploaderName": "Priya Verma",
+        "qualityStatus": "approved",
+        "permissionStatus": "verified_public",
+        "isSampleFree": true,
+        "downloadCount": 410,
+        "sectionsSummary": [
+          "Section A: Short definitions (14 Marks)",
+          "Section B: SQL & Normalization (21 Marks)",
+          "Section C: Transactions & B+ Trees (35 Marks)"
+        ],
+        "sampleQuestions": [
+          "Decompose relation R(A,B,C,D,E) into BCNF while verifying dependency preservation and lossless join.",
+          "Test the schedule S for conflict serializability using precedence graphs and verify Strict 2PL.",
+          "Construct a B+ Tree of order 4 for keys: 12, 5, 24, 31, 8, 19, 42, 3."
+        ],
+        "topicTagIds": [
+          "24235061747d4543674eef86",
+          "00eb382bcd6b4f81af89da40",
+          "19c9611ee2b44d2ae3cb16e5"
+        ],
+        "_id": "ba08109dd972e3172ead752b",
+        "fileUrl": "",
+        "storedFilename": "",
+        "fileHash": "",
+        "createdAt": "2026-11-17T17:31:10.318Z",
+        "updatedAt": "2026-11-17T17:31:10.318Z"
+      },
+      {
+        "title": "Database Management Systems — End-Semester Examination 2023",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "branchId": "908afa8a1d74fb912889c6ca",
+        "semesterId": "e8c7264a5f6f198477166cb7",
+        "curriculumSchemeId": "97e19a64adf977ec695eced4",
+        "subjectId": "b6755a7df3ecb177483bf5e8",
+        "examYear": 2023,
+        "examSession": "Even Semester",
+        "paperCode": "KCS402-2023",
+        "totalMarks": 100,
+        "durationMinutes": 180,
+        "source": "AKTU Departmental Library",
+        "uploaderId": "d551e6fe220a787ee5aa2ba7",
+        "uploaderName": "UNIHUB Academic Team",
+        "qualityStatus": "approved",
+        "permissionStatus": "verified_public",
+        "isSampleFree": false,
+        "downloadCount": 289,
+        "sectionsSummary": [
+          "Section A: 20 Marks",
+          "Section B: 30 Marks",
+          "Section C: 50 Marks"
+        ],
+        "sampleQuestions": [
+          "Differentiate between BCNF and 3NF with an example relation that is in 3NF but not BCNF.",
+          "Explain ARIES log-based recovery protocol phases: Analysis, Redo, and Undo."
+        ],
+        "topicTagIds": [
+          "24235061747d4543674eef86",
+          "00eb382bcd6b4f81af89da40"
+        ],
+        "_id": "7fba07940986ab46891209ef",
+        "fileUrl": "",
+        "storedFilename": "",
+        "fileHash": "",
+        "createdAt": "2026-11-17T17:31:10.318Z",
+        "updatedAt": "2026-11-17T17:31:10.318Z"
+      },
+      {
+        "title": "Theory of Automata & Formal Languages — End-Semester 2024",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "branchId": "908afa8a1d74fb912889c6ca",
+        "semesterId": "e8c7264a5f6f198477166cb7",
+        "curriculumSchemeId": "97e19a64adf977ec695eced4",
+        "subjectId": "6f2e4bec341131cae49346f7",
+        "examYear": 2024,
+        "examSession": "Even Semester",
+        "paperCode": "BCS403-2024",
+        "totalMarks": 70,
+        "durationMinutes": 180,
+        "source": "AKTU Examination Archive",
+        "uploaderId": "27c8080d9c24d8e313cb2878",
+        "uploaderName": "Priya Verma",
+        "qualityStatus": "approved",
+        "permissionStatus": "verified_public",
+        "isSampleFree": false,
+        "downloadCount": 274,
+        "sectionsSummary": [
+          "Section A: 14 Marks",
+          "Section B: 21 Marks",
+          "Section C: 35 Marks"
+        ],
+        "sampleQuestions": [
+          "Minimize the given 6-state DFA using Myhill-Nerode / equivalence partitioning.",
+          "Convert the Context-Free Grammar into Chomsky Normal Form (CNF).",
+          "Design a Turing Machine that accepts L = { a^n b^n c^n | n >= 1 }."
+        ],
+        "topicTagIds": [
+          "1708739538992a6f9d1ec94f",
+          "2fa802df4c3f388ae6afad24",
+          "76165a2902346fb96df00382"
+        ],
+        "_id": "e252914fda0603f644958638",
+        "fileUrl": "",
+        "storedFilename": "",
+        "fileHash": "",
+        "createdAt": "2026-11-17T17:31:10.318Z",
+        "updatedAt": "2026-11-17T17:31:10.318Z"
+      },
+      {
+        "title": "Data Structures — End-Semester Examination 2024",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "branchId": "908afa8a1d74fb912889c6ca",
+        "semesterId": "15da84bce0f15440ece622ca",
+        "curriculumSchemeId": "97e19a64adf977ec695eced4",
+        "subjectId": "d70b5301a734d1000f022f9d",
+        "examYear": 2024,
+        "examSession": "Odd Semester",
+        "paperCode": "BCS301-2024",
+        "totalMarks": 70,
+        "durationMinutes": 180,
+        "source": "AKTU Examination Archive",
+        "qualityStatus": "approved",
+        "permissionStatus": "verified_public",
+        "isSampleFree": true,
+        "downloadCount": 620,
+        "sampleQuestions": [
+          "Write an algorithm to balance an AVL tree after deletion.",
+          "Perform Dijkstra’s shortest path trace on the weighted graph."
+        ],
+        "_id": "a965dbab3bca630f41d04b4b",
+        "uploaderId": null,
+        "uploaderName": "UNIHUB Academic Team",
+        "fileUrl": "",
+        "storedFilename": "",
+        "fileHash": "",
+        "sectionsSummary": [],
+        "topicTagIds": [],
+        "createdAt": "2026-11-17T17:31:10.319Z",
+        "updatedAt": "2026-11-17T17:31:10.319Z"
+      },
+      {
+        "title": "Design & Analysis of Algorithms — End-Term 2024",
+        "universityId": "62311824e58a17ee02ce25e1",
+        "programmeId": "52f1418a0bc0de27a36dac8b",
+        "branchId": "9658c848fff96c19c2599c40",
+        "semesterId": "13548abdf6f02d94e5cce716",
+        "curriculumSchemeId": "36135255de4fcf46e7b52772",
+        "subjectId": "73db6bf774734adcb4cc7cae",
+        "examYear": 2024,
+        "examSession": "End-Semester",
+        "paperCode": "CIC-206-2024",
+        "totalMarks": 75,
+        "durationMinutes": 180,
+        "source": "GGSIPU Exam Cell Archive",
+        "qualityStatus": "approved",
+        "permissionStatus": "verified_public",
+        "isSampleFree": true,
+        "downloadCount": 198,
+        "sampleQuestions": [
+          "Solve T(n) = 2T(n/2) + n log n using Master Theorem and recursion tree.",
+          "Implement Matrix Chain Multiplication using Dynamic Programming."
+        ],
+        "topicTagIds": [
+          "895a3dca275a72df35eaa048"
+        ],
+        "_id": "92532813b1b92186ccc9debb",
+        "uploaderId": null,
+        "uploaderName": "UNIHUB Academic Team",
+        "fileUrl": "",
+        "storedFilename": "",
+        "fileHash": "",
+        "sectionsSummary": [],
+        "createdAt": "2026-11-17T17:31:10.319Z",
+        "updatedAt": "2026-11-17T17:31:10.319Z"
+      },
+      {
+        "title": "Corporate Accounting — End-Semester 2024",
+        "universityId": "55b95593237d6e767a65227f",
+        "programmeId": "60b109afc1d4db7fb72e6ec1",
+        "branchId": "8be7f1ec273519cbe48dc7c6",
+        "semesterId": "1eefe54831bbd791b8c120fe",
+        "curriculumSchemeId": "0c0472cce5686c443477859d",
+        "subjectId": "2f8ed42ab6a17140d25d1212",
+        "examYear": 2024,
+        "examSession": "End-Semester",
+        "paperCode": "BCM-201-2024",
+        "totalMarks": 70,
+        "durationMinutes": 180,
+        "source": "IIMT University Academic Repository",
+        "qualityStatus": "approved",
+        "permissionStatus": "verified_public",
+        "isSampleFree": true,
+        "downloadCount": 112,
+        "sampleQuestions": [
+          "Pass journal entries for forfeiture and re-issue of 500 equity shares.",
+          "Calculate goodwill under super-profit method."
+        ],
+        "_id": "199ad4635ad7ba6ae36b0677",
+        "uploaderId": null,
+        "uploaderName": "UNIHUB Academic Team",
+        "fileUrl": "",
+        "storedFilename": "",
+        "fileHash": "",
+        "sectionsSummary": [],
+        "topicTagIds": [],
+        "createdAt": "2026-11-17T17:31:10.319Z",
+        "updatedAt": "2026-11-17T17:31:10.319Z"
+      }
+    ],
+    "Question": [
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "subjectId": "b453e012177c4ea603eea005",
+        "topicId": "4ac555589add0f649e1b71e5",
+        "pyqPaperId": "4a23828b419777d4ba1f66ad",
+        "statement": "Which CPU scheduling algorithm achieves the provably minimum average waiting time for a given set of processes arriving simultaneously?",
+        "questionType": "mcq",
+        "difficulty": "easy",
+        "marks": 2,
+        "examYear": 2025,
+        "source": "BCS401-2025 Section A",
+        "options": [
+          "First-Come First-Served (FCFS)",
+          "Shortest Job First (SJF)",
+          "Round Robin (RR)",
+          "Priority Scheduling"
+        ],
+        "correctAnswer": "Shortest Job First (SJF)",
+        "explanation": "SJF (non-preemptive when all processes arrive at t=0, or SRTF for varying arrival times) minimizes average waiting time by executing shorter bursts first.",
+        "isVerifiedExplanation": true,
+        "_id": "b59bb81b33677ee0b332f210",
+        "rubricPoints": [],
+        "publicationStatus": "published",
+        "createdAt": "2026-11-17T17:31:10.320Z",
+        "updatedAt": "2026-11-17T17:31:10.320Z"
+      },
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "subjectId": "b453e012177c4ea603eea005",
+        "topicId": "fbe851a04282ea7b9d76ce41",
+        "pyqPaperId": "4fc209534b43be68c4485399",
+        "statement": "True or False: LRU (Least Recently Used) page replacement suffers from Belady’s Anomaly when the number of physical memory frames is increased.",
+        "questionType": "true_false",
+        "difficulty": "medium",
+        "marks": 2,
+        "examYear": 2024,
+        "source": "BCS401-2024 Section A",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "explanation": "LRU is a stack algorithm, meaning the set of pages in memory with n frames is always a subset of pages with n+1 frames. Only non-stack algorithms like FIFO suffer from Belady’s Anomaly.",
+        "isVerifiedExplanation": true,
+        "_id": "43f60202584f8e02be365693",
+        "rubricPoints": [],
+        "publicationStatus": "published",
+        "createdAt": "2026-11-17T17:31:10.320Z",
+        "updatedAt": "2026-11-17T17:31:10.320Z"
+      },
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "subjectId": "b453e012177c4ea603eea005",
+        "topicId": "81c8d1c1c731b888b9fc3a24",
+        "pyqPaperId": "4a23828b419777d4ba1f66ad",
+        "statement": "What are the four Coffman conditions that must hold simultaneously for a deadlock to occur? State the condition broken by ordering resource acquisitions.",
+        "questionType": "short_answer",
+        "difficulty": "medium",
+        "marks": 5,
+        "examYear": 2025,
+        "source": "BCS401-2025 Section B",
+        "correctAnswer": "Mutual Exclusion, Hold and Wait, No Preemption, Circular Wait; ordering breaks Circular Wait.",
+        "rubricPoints": [
+          "Lists all 4 Coffman conditions accurately (3 marks)",
+          "Identifies Circular Wait as broken by total ordering (2 marks)"
+        ],
+        "explanation": "Mutual Exclusion, Hold & Wait, No Preemption, and Circular Wait. Assigning a strict global numbering to resource types and requiring increasing acquisition order prevents circular wait.",
+        "isVerifiedExplanation": true,
+        "_id": "a302847a2f1d495a1a3dd239",
+        "options": [],
+        "publicationStatus": "published",
+        "createdAt": "2026-11-17T17:31:10.320Z",
+        "updatedAt": "2026-11-17T17:31:10.320Z"
+      },
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "subjectId": "b6755a7df3ecb177483bf5e8",
+        "topicId": "24235061747d4543674eef86",
+        "pyqPaperId": "ba08109dd972e3172ead752b",
+        "statement": "A relation R is in BCNF if and only if for every non-trivial functional dependency X -> Y holding in R:",
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "marks": 2,
+        "examYear": 2025,
+        "source": "BCS402-2025 Section A",
+        "options": [
+          "Y is a prime attribute",
+          "X is a superkey of R",
+          "X is a candidate key only",
+          "Y is transitively dependent on X"
+        ],
+        "correctAnswer": "X is a superkey of R",
+        "explanation": "By definition, Boyce-Codd Normal Form requires that the determinant X of every non-trivial FD X -> Y must be a superkey of the relation.",
+        "isVerifiedExplanation": true,
+        "_id": "38e8743e197f1b7c65c35dca",
+        "rubricPoints": [],
+        "publicationStatus": "published",
+        "createdAt": "2026-11-17T17:31:10.320Z",
+        "updatedAt": "2026-11-17T17:31:10.320Z"
+      },
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "subjectId": "b6755a7df3ecb177483bf5e8",
+        "topicId": "00eb382bcd6b4f81af89da40",
+        "pyqPaperId": "7fba07940986ab46891209ef",
+        "statement": "True or False: Every conflict-serializable schedule is guaranteed to be view-serializable, though the converse is not true.",
+        "questionType": "true_false",
+        "difficulty": "medium",
+        "marks": 2,
+        "examYear": 2023,
+        "source": "KCS402-2023 Section A",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Conflict serializability is a strictly stronger condition than view serializability. Schedules with blind writes can be view-serializable without being conflict-serializable.",
+        "isVerifiedExplanation": true,
+        "_id": "aa2d85867ce444f2f6a70c5c",
+        "rubricPoints": [],
+        "publicationStatus": "published",
+        "createdAt": "2026-11-17T17:31:10.321Z",
+        "updatedAt": "2026-11-17T17:31:10.321Z"
+      },
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "subjectId": "b6755a7df3ecb177483bf5e8",
+        "topicId": "19c9611ee2b44d2ae3cb16e5",
+        "pyqPaperId": "ba08109dd972e3172ead752b",
+        "statement": "Explain the structural difference between a B-Tree and a B+ Tree index, and describe why B+ Trees are preferred for database range queries.",
+        "questionType": "descriptive",
+        "difficulty": "hard",
+        "marks": 10,
+        "examYear": 2025,
+        "source": "BCS402-2025 Section C",
+        "correctAnswer": "",
+        "rubricPoints": [
+          "Data pointers only at leaf nodes in B+ Tree vs all nodes in B-Tree (3 marks)",
+          "Higher fan-out & lower tree height for B+ Tree (3 marks)",
+          "Doubly-linked leaf nodes enabling fast sequential range scans (4 marks)"
+        ],
+        "explanation": "B+ Trees store record pointers exclusively at leaf level and link leaf nodes sequentially, allowing higher branching factor in internal nodes and O(log n + k) range traversal.",
+        "isVerifiedExplanation": true,
+        "_id": "7e61417d3e7fd8ad414042e3",
+        "options": [],
+        "publicationStatus": "published",
+        "createdAt": "2026-11-17T17:31:10.321Z",
+        "updatedAt": "2026-11-17T17:31:10.321Z"
+      },
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "subjectId": "6f2e4bec341131cae49346f7",
+        "topicId": "1708739538992a6f9d1ec94f",
+        "pyqPaperId": "e252914fda0603f644958638",
+        "statement": "Which class of formal languages is strictly accepted by a Deterministic Pushdown Automaton (DPDA) versus a Non-deterministic PDA?",
+        "questionType": "mcq",
+        "difficulty": "hard",
+        "marks": 2,
+        "examYear": 2024,
+        "source": "BCS403-2024 Section A",
+        "options": [
+          "Both accept exactly the same Context-Free Languages",
+          "DPDA accepts Deterministic CFLs, a proper subset of CFLs",
+          "DPDA accepts only Regular Languages",
+          "NPDA accepts Context-Sensitive Languages"
+        ],
+        "correctAnswer": "DPDA accepts Deterministic CFLs, a proper subset of CFLs",
+        "explanation": "Unlike finite automata (where DFA = NFA), DPDA is strictly weaker than NPDA. For example, L = { ww^R } requires non-determinism.",
+        "isVerifiedExplanation": true,
+        "_id": "b8553f3fea857ba25991803f",
+        "rubricPoints": [],
+        "publicationStatus": "published",
+        "createdAt": "2026-11-17T17:31:10.321Z",
+        "updatedAt": "2026-11-17T17:31:10.321Z"
+      },
+      {
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "subjectId": "6f2e4bec341131cae49346f7",
+        "topicId": "2fa802df4c3f388ae6afad24",
+        "pyqPaperId": "e252914fda0603f644958638",
+        "statement": "True or False: Every Context-Free Grammar without epsilon productions can be converted into Chomsky Normal Form (CNF).",
+        "questionType": "true_false",
+        "difficulty": "easy",
+        "marks": 2,
+        "examYear": 2024,
+        "source": "BCS403-2024 Section A",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Any CFG generating a language without the empty string can be systematically transformed into CNF (A -> BC or A -> a) by eliminating unit productions and factoring long RHS.",
+        "isVerifiedExplanation": true,
+        "_id": "6b2698163a558e01a04114c0",
+        "rubricPoints": [],
+        "publicationStatus": "published",
+        "createdAt": "2026-11-17T17:31:10.321Z",
+        "updatedAt": "2026-11-17T17:31:10.321Z"
+      },
+      {
+        "universityId": "62311824e58a17ee02ce25e1",
+        "subjectId": "73db6bf774734adcb4cc7cae",
+        "topicId": "895a3dca275a72df35eaa048",
+        "pyqPaperId": "92532813b1b92186ccc9debb",
+        "statement": "What is the worst-case time complexity of solving Longest Common Subsequence (LCS) for strings of length m and n using dynamic programming?",
+        "questionType": "mcq",
+        "difficulty": "easy",
+        "marks": 2,
+        "examYear": 2024,
+        "source": "CIC-206-2024",
+        "options": [
+          "O(m + n)",
+          "O(m * n)",
+          "O(2^n)",
+          "O(n log m)"
+        ],
+        "correctAnswer": "O(m * n)",
+        "explanation": "The DP table has (m+1) x (n+1) entries, each computed in O(1) time.",
+        "isVerifiedExplanation": true,
+        "_id": "e9ee52920508d84e25dce4f0",
+        "rubricPoints": [],
+        "publicationStatus": "published",
+        "createdAt": "2026-11-17T17:31:10.322Z",
+        "updatedAt": "2026-11-17T17:31:10.322Z"
+      }
+    ],
+    "MockTest": [
+      {
+        "title": "AKTU Sem 4 Sample Diagnostic Test (OS & DBMS)",
+        "description": "Free diagnostic sample test covering core Operating Systems and DBMS concepts from 2024-2025 AKTU papers.",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "branchId": "908afa8a1d74fb912889c6ca",
+        "semesterId": "e8c7264a5f6f198477166cb7",
+        "curriculumSchemeId": "97e19a64adf977ec695eced4",
+        "subjectId": "b453e012177c4ea603eea005",
+        "testScope": "sample",
+        "durationMinutes": 15,
+        "totalMarks": 8,
+        "randomizeQuestions": false,
+        "isPublished": true,
+        "isFreeSample": true,
+        "sections": [
+          {
+            "name": "Section A — Core Concepts (Objective)",
+            "instructions": "Attempt all objective questions. No negative marking.",
+            "questionIds": [
+              "b59bb81b33677ee0b332f210",
+              "43f60202584f8e02be365693",
+              "38e8743e197f1b7c65c35dca",
+              "aa2d85867ce444f2f6a70c5c"
+            ]
+          }
+        ],
+        "questionIds": [
+          "b59bb81b33677ee0b332f210",
+          "43f60202584f8e02be365693",
+          "38e8743e197f1b7c65c35dca",
+          "aa2d85867ce444f2f6a70c5c"
+        ],
+        "_id": "e13b9af733078383ad4083f9",
+        "createdAt": "2026-11-17T17:31:10.322Z",
+        "updatedAt": "2026-11-17T17:31:10.322Z"
+      },
+      {
+        "title": "BCS401 Operating Systems — Timed Unit & PYQ Assessment",
+        "description": "Subject-wise timed test including objective questions plus descriptive rubric evaluation.",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "branchId": "908afa8a1d74fb912889c6ca",
+        "semesterId": "e8c7264a5f6f198477166cb7",
+        "curriculumSchemeId": "97e19a64adf977ec695eced4",
+        "subjectId": "b453e012177c4ea603eea005",
+        "testScope": "subject",
+        "durationMinutes": 30,
+        "totalMarks": 9,
+        "randomizeQuestions": true,
+        "isPublished": true,
+        "isFreeSample": false,
+        "sections": [
+          {
+            "name": "Section A — Objective",
+            "instructions": "Select the best option.",
+            "questionIds": [
+              "b59bb81b33677ee0b332f210",
+              "43f60202584f8e02be365693"
+            ]
+          },
+          {
+            "name": "Section B — Short Answer (Rubric Graded)",
+            "instructions": "Write clear technical points; evaluated by reviewer rubric.",
+            "questionIds": [
+              "a302847a2f1d495a1a3dd239"
+            ]
+          }
+        ],
+        "questionIds": [
+          "b59bb81b33677ee0b332f210",
+          "43f60202584f8e02be365693",
+          "a302847a2f1d495a1a3dd239"
+        ],
+        "_id": "4fed7bd5ba1e97a2b7d698e8",
+        "createdAt": "2026-11-17T17:31:10.322Z",
+        "updatedAt": "2026-11-17T17:31:10.322Z"
+      },
+      {
+        "title": "AKTU CSE Semester 4 — Full-Semester Combined Mock",
+        "description": "Cross-subject mock examination spanning Operating Systems, DBMS, and Theory of Automata.",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "branchId": "908afa8a1d74fb912889c6ca",
+        "semesterId": "e8c7264a5f6f198477166cb7",
+        "curriculumSchemeId": "97e19a64adf977ec695eced4",
+        "subjectId": null,
+        "testScope": "full_semester",
+        "durationMinutes": 45,
+        "totalMarks": 22,
+        "randomizeQuestions": false,
+        "isPublished": true,
+        "isFreeSample": false,
+        "sections": [
+          {
+            "name": "Part 1 — Objective Questions",
+            "instructions": "Auto-scored immediately on submission.",
+            "questionIds": [
+              "b59bb81b33677ee0b332f210",
+              "43f60202584f8e02be365693",
+              "38e8743e197f1b7c65c35dca",
+              "aa2d85867ce444f2f6a70c5c",
+              "b8553f3fea857ba25991803f",
+              "6b2698163a558e01a04114c0"
+            ]
+          },
+          {
+            "name": "Part 2 — Descriptive Theory",
+            "instructions": "Evaluated manually via university marking rubric.",
+            "questionIds": [
+              "7e61417d3e7fd8ad414042e3"
+            ]
+          }
+        ],
+        "questionIds": [
+          "b59bb81b33677ee0b332f210",
+          "43f60202584f8e02be365693",
+          "38e8743e197f1b7c65c35dca",
+          "aa2d85867ce444f2f6a70c5c",
+          "b8553f3fea857ba25991803f",
+          "6b2698163a558e01a04114c0",
+          "7e61417d3e7fd8ad414042e3"
+        ],
+        "_id": "a747776df30a22585db6ac32",
+        "createdAt": "2026-11-17T17:31:10.322Z",
+        "updatedAt": "2026-11-17T17:31:10.322Z"
+      }
+    ],
+    "TestAttempt": [
+      {
+        "userId": "5a11d1833ef2723b026f371b",
+        "mockTestId": "e13b9af733078383ad4083f9",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "semesterId": "e8c7264a5f6f198477166cb7",
+        "subjectId": "b453e012177c4ea603eea005",
+        "startedAt": "2026-11-05T17:31:10.323Z",
+        "submittedAt": "2026-11-05T17:31:10.323Z",
+        "timeSpentSeconds": 610,
+        "submissionReason": "manual",
+        "answers": [
+          {
+            "questionId": "b59bb81b33677ee0b332f210",
+            "userAnswer": "Shortest Job First (SJF)",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": true,
+            "awardedMarks": 2,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded"
+          },
+          {
+            "questionId": "43f60202584f8e02be365693",
+            "userAnswer": "True",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": false,
+            "awardedMarks": 0,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded"
+          },
+          {
+            "questionId": "38e8743e197f1b7c65c35dca",
+            "userAnswer": "X is a superkey of R",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": true,
+            "awardedMarks": 2,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded"
+          },
+          {
+            "questionId": "aa2d85867ce444f2f6a70c5c",
+            "userAnswer": "False",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": false,
+            "awardedMarks": 0,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded"
+          }
+        ],
+        "objectiveScore": 4,
+        "objectiveMaxScore": 8,
+        "descriptiveScore": 0,
+        "descriptiveMaxScore": 0,
+        "totalAwardedScore": 4,
+        "totalMaxScore": 8,
+        "percentage": 50,
+        "hasPendingDescriptiveReview": false,
+        "descriptiveEvaluationStatus": "not_applicable",
+        "topicBreakdown": [
+          {
+            "topicId": "4ac555589add0f649e1b71e5",
+            "topicName": "CPU Scheduling Algorithms",
+            "correct": 1,
+            "total": 1,
+            "accuracyPercent": 100
+          },
+          {
+            "topicId": "fbe851a04282ea7b9d76ce41",
+            "topicName": "Virtual Memory & Page Replacement",
+            "correct": 0,
+            "total": 1,
+            "accuracyPercent": 0
+          },
+          {
+            "topicId": "24235061747d4543674eef86",
+            "topicName": "Normalization & Functional Dependencies",
+            "correct": 1,
+            "total": 1,
+            "accuracyPercent": 100
+          },
+          {
+            "topicId": "00eb382bcd6b4f81af89da40",
+            "topicName": "ACID, Serializability & 2PL",
+            "correct": 0,
+            "total": 1,
+            "accuracyPercent": 0
+          }
+        ],
+        "_id": "a78a8c0e55731e8985b1b628",
+        "createdAt": "2026-11-17T17:31:10.323Z",
+        "updatedAt": "2026-11-17T17:31:10.323Z"
+      },
+      {
+        "userId": "5a11d1833ef2723b026f371b",
+        "mockTestId": "4fed7bd5ba1e97a2b7d698e8",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "semesterId": "e8c7264a5f6f198477166cb7",
+        "subjectId": "b453e012177c4ea603eea005",
+        "startedAt": "2026-11-11T17:31:10.323Z",
+        "submittedAt": "2026-11-11T17:31:10.323Z",
+        "timeSpentSeconds": 840,
+        "submissionReason": "manual",
+        "answers": [
+          {
+            "questionId": "b59bb81b33677ee0b332f210",
+            "userAnswer": "Shortest Job First (SJF)",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": true,
+            "awardedMarks": 2,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded"
+          },
+          {
+            "questionId": "43f60202584f8e02be365693",
+            "userAnswer": "False",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": true,
+            "awardedMarks": 2,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded"
+          },
+          {
+            "questionId": "a302847a2f1d495a1a3dd239",
+            "userAnswer": "Mutual Exclusion, Hold and Wait, No Preemption, Circular Wait. Total resource ordering breaks Circular Wait.",
+            "markedForReview": false,
+            "isObjective": false,
+            "isCorrect": false,
+            "awardedMarks": 4,
+            "maxMarks": 5,
+            "evaluationStatus": "rubric_graded",
+            "reviewerComment": "Clear Coffman conditions; add brief note on starvation."
+          }
+        ],
+        "objectiveScore": 4,
+        "objectiveMaxScore": 4,
+        "descriptiveScore": 4,
+        "descriptiveMaxScore": 5,
+        "totalAwardedScore": 8,
+        "totalMaxScore": 9,
+        "percentage": 89,
+        "hasPendingDescriptiveReview": false,
+        "descriptiveEvaluationStatus": "evaluated",
+        "topicBreakdown": [
+          {
+            "topicId": "4ac555589add0f649e1b71e5",
+            "topicName": "CPU Scheduling Algorithms",
+            "correct": 1,
+            "total": 1,
+            "accuracyPercent": 100
+          },
+          {
+            "topicId": "fbe851a04282ea7b9d76ce41",
+            "topicName": "Virtual Memory & Page Replacement",
+            "correct": 1,
+            "total": 1,
+            "accuracyPercent": 100
+          },
+          {
+            "topicId": "81c8d1c1c731b888b9fc3a24",
+            "topicName": "Banker’s Algorithm & Deadlocks",
+            "correct": 1,
+            "total": 1,
+            "accuracyPercent": 100
+          }
+        ],
+        "_id": "e330c71a465fa36fe140d873",
+        "createdAt": "2026-11-17T17:31:10.323Z",
+        "updatedAt": "2026-11-17T17:31:10.323Z"
+      },
+      {
+        "userId": "5a11d1833ef2723b026f371b",
+        "mockTestId": "e13b9af733078383ad4083f9",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "semesterId": "e8c7264a5f6f198477166cb7",
+        "subjectId": "b6755a7df3ecb177483bf5e8",
+        "startedAt": "2026-11-15T17:31:10.323Z",
+        "submittedAt": "2026-11-15T17:31:10.323Z",
+        "timeSpentSeconds": 510,
+        "submissionReason": "manual",
+        "answers": [
+          {
+            "questionId": "b59bb81b33677ee0b332f210",
+            "userAnswer": "Shortest Job First (SJF)",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": true,
+            "awardedMarks": 2,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded"
+          },
+          {
+            "questionId": "43f60202584f8e02be365693",
+            "userAnswer": "False",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": true,
+            "awardedMarks": 2,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded"
+          },
+          {
+            "questionId": "38e8743e197f1b7c65c35dca",
+            "userAnswer": "X is a superkey of R",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": true,
+            "awardedMarks": 2,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded"
+          },
+          {
+            "questionId": "aa2d85867ce444f2f6a70c5c",
+            "userAnswer": "False",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": false,
+            "awardedMarks": 0,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded"
+          }
+        ],
+        "objectiveScore": 6,
+        "objectiveMaxScore": 8,
+        "descriptiveScore": 0,
+        "descriptiveMaxScore": 0,
+        "totalAwardedScore": 6,
+        "totalMaxScore": 8,
+        "percentage": 75,
+        "hasPendingDescriptiveReview": false,
+        "descriptiveEvaluationStatus": "not_applicable",
+        "topicBreakdown": [
+          {
+            "topicId": "4ac555589add0f649e1b71e5",
+            "topicName": "CPU Scheduling Algorithms",
+            "correct": 1,
+            "total": 1,
+            "accuracyPercent": 100
+          },
+          {
+            "topicId": "fbe851a04282ea7b9d76ce41",
+            "topicName": "Virtual Memory & Page Replacement",
+            "correct": 1,
+            "total": 1,
+            "accuracyPercent": 100
+          },
+          {
+            "topicId": "24235061747d4543674eef86",
+            "topicName": "Normalization & Functional Dependencies",
+            "correct": 1,
+            "total": 1,
+            "accuracyPercent": 100
+          },
+          {
+            "topicId": "00eb382bcd6b4f81af89da40",
+            "topicName": "ACID, Serializability & 2PL",
+            "correct": 0,
+            "total": 1,
+            "accuracyPercent": 0
+          }
+        ],
+        "_id": "0678ac3ae532cc53d01fcd7a",
+        "createdAt": "2026-11-17T17:31:10.324Z",
+        "updatedAt": "2026-11-17T17:31:10.324Z"
+      },
+      {
+        "userId": "5a11d1833ef2723b026f371b",
+        "mockTestId": "e13b9af733078383ad4083f9",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "semesterId": "e8c7264a5f6f198477166cb7",
+        "subjectId": "b453e012177c4ea603eea005",
+        "startedAt": "2026-11-18T02:14:21.079Z",
+        "submittedAt": "2026-11-18T02:14:21.085Z",
+        "timeSpentSeconds": 30,
+        "submissionReason": "manual",
+        "answers": [
+          {
+            "questionId": "b59bb81b33677ee0b332f210",
+            "userAnswer": "First-Come First-Served (FCFS)",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": false,
+            "awardedMarks": 0,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded",
+            "reviewerComment": ""
+          },
+          {
+            "questionId": "43f60202584f8e02be365693",
+            "userAnswer": "",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": false,
+            "awardedMarks": 0,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded",
+            "reviewerComment": ""
+          },
+          {
+            "questionId": "38e8743e197f1b7c65c35dca",
+            "userAnswer": "",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": false,
+            "awardedMarks": 0,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded",
+            "reviewerComment": ""
+          },
+          {
+            "questionId": "aa2d85867ce444f2f6a70c5c",
+            "userAnswer": "",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": false,
+            "awardedMarks": 0,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded",
+            "reviewerComment": ""
+          }
+        ],
+        "objectiveScore": 0,
+        "objectiveMaxScore": 8,
+        "descriptiveScore": 0,
+        "descriptiveMaxScore": 0,
+        "totalAwardedScore": 0,
+        "totalMaxScore": 8,
+        "percentage": 0,
+        "hasPendingDescriptiveReview": false,
+        "descriptiveEvaluationStatus": "not_applicable",
+        "topicBreakdown": [
+          {
+            "topicId": "4ac555589add0f649e1b71e5",
+            "topicName": "CPU Scheduling Algorithms",
+            "correct": 0,
+            "total": 1,
+            "accuracyPercent": 0
+          },
+          {
+            "topicId": "fbe851a04282ea7b9d76ce41",
+            "topicName": "Virtual Memory & Page Replacement",
+            "correct": 0,
+            "total": 1,
+            "accuracyPercent": 0
+          },
+          {
+            "topicId": "24235061747d4543674eef86",
+            "topicName": "Normalization & Functional Dependencies",
+            "correct": 0,
+            "total": 1,
+            "accuracyPercent": 0
+          },
+          {
+            "topicId": "00eb382bcd6b4f81af89da40",
+            "topicName": "ACID, Serializability & 2PL",
+            "correct": 0,
+            "total": 1,
+            "accuracyPercent": 0
+          }
+        ],
+        "_id": "df68120ebeb8f17c30df74f9",
+        "createdAt": "2026-11-18T02:14:21.085Z",
+        "updatedAt": "2026-11-18T02:14:21.085Z"
+      },
+      {
+        "userId": "5a11d1833ef2723b026f371b",
+        "mockTestId": "e13b9af733078383ad4083f9",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "semesterId": "e8c7264a5f6f198477166cb7",
+        "subjectId": "b453e012177c4ea603eea005",
+        "startedAt": "2026-11-18T02:14:41.455Z",
+        "submittedAt": "2026-11-18T02:14:41.458Z",
+        "timeSpentSeconds": 30,
+        "submissionReason": "manual",
+        "answers": [
+          {
+            "questionId": "b59bb81b33677ee0b332f210",
+            "userAnswer": "First-Come First-Served (FCFS)",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": false,
+            "awardedMarks": 0,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded",
+            "reviewerComment": ""
+          },
+          {
+            "questionId": "43f60202584f8e02be365693",
+            "userAnswer": "",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": false,
+            "awardedMarks": 0,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded",
+            "reviewerComment": ""
+          },
+          {
+            "questionId": "38e8743e197f1b7c65c35dca",
+            "userAnswer": "",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": false,
+            "awardedMarks": 0,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded",
+            "reviewerComment": ""
+          },
+          {
+            "questionId": "aa2d85867ce444f2f6a70c5c",
+            "userAnswer": "",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": false,
+            "awardedMarks": 0,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded",
+            "reviewerComment": ""
+          }
+        ],
+        "objectiveScore": 0,
+        "objectiveMaxScore": 8,
+        "descriptiveScore": 0,
+        "descriptiveMaxScore": 0,
+        "totalAwardedScore": 0,
+        "totalMaxScore": 8,
+        "percentage": 0,
+        "hasPendingDescriptiveReview": false,
+        "descriptiveEvaluationStatus": "not_applicable",
+        "topicBreakdown": [
+          {
+            "topicId": "4ac555589add0f649e1b71e5",
+            "topicName": "CPU Scheduling Algorithms",
+            "correct": 0,
+            "total": 1,
+            "accuracyPercent": 0
+          },
+          {
+            "topicId": "fbe851a04282ea7b9d76ce41",
+            "topicName": "Virtual Memory & Page Replacement",
+            "correct": 0,
+            "total": 1,
+            "accuracyPercent": 0
+          },
+          {
+            "topicId": "24235061747d4543674eef86",
+            "topicName": "Normalization & Functional Dependencies",
+            "correct": 0,
+            "total": 1,
+            "accuracyPercent": 0
+          },
+          {
+            "topicId": "00eb382bcd6b4f81af89da40",
+            "topicName": "ACID, Serializability & 2PL",
+            "correct": 0,
+            "total": 1,
+            "accuracyPercent": 0
+          }
+        ],
+        "_id": "8b40788d20b23e524700c6d6",
+        "createdAt": "2026-11-18T02:14:41.458Z",
+        "updatedAt": "2026-11-18T02:14:41.458Z"
+      },
+      {
+        "userId": "5a11d1833ef2723b026f371b",
+        "mockTestId": "e13b9af733078383ad4083f9",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "semesterId": "e8c7264a5f6f198477166cb7",
+        "subjectId": "b453e012177c4ea603eea005",
+        "startedAt": "2026-11-18T02:14:58.457Z",
+        "submittedAt": "2026-11-18T02:14:58.462Z",
+        "timeSpentSeconds": 30,
+        "submissionReason": "manual",
+        "answers": [
+          {
+            "questionId": "b59bb81b33677ee0b332f210",
+            "userAnswer": "First-Come First-Served (FCFS)",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": false,
+            "awardedMarks": 0,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded",
+            "reviewerComment": ""
+          },
+          {
+            "questionId": "43f60202584f8e02be365693",
+            "userAnswer": "",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": false,
+            "awardedMarks": 0,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded",
+            "reviewerComment": ""
+          },
+          {
+            "questionId": "38e8743e197f1b7c65c35dca",
+            "userAnswer": "",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": false,
+            "awardedMarks": 0,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded",
+            "reviewerComment": ""
+          },
+          {
+            "questionId": "aa2d85867ce444f2f6a70c5c",
+            "userAnswer": "",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": false,
+            "awardedMarks": 0,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded",
+            "reviewerComment": ""
+          }
+        ],
+        "objectiveScore": 0,
+        "objectiveMaxScore": 8,
+        "descriptiveScore": 0,
+        "descriptiveMaxScore": 0,
+        "totalAwardedScore": 0,
+        "totalMaxScore": 8,
+        "percentage": 0,
+        "hasPendingDescriptiveReview": false,
+        "descriptiveEvaluationStatus": "not_applicable",
+        "topicBreakdown": [
+          {
+            "topicId": "4ac555589add0f649e1b71e5",
+            "topicName": "CPU Scheduling Algorithms",
+            "correct": 0,
+            "total": 1,
+            "accuracyPercent": 0
+          },
+          {
+            "topicId": "fbe851a04282ea7b9d76ce41",
+            "topicName": "Virtual Memory & Page Replacement",
+            "correct": 0,
+            "total": 1,
+            "accuracyPercent": 0
+          },
+          {
+            "topicId": "24235061747d4543674eef86",
+            "topicName": "Normalization & Functional Dependencies",
+            "correct": 0,
+            "total": 1,
+            "accuracyPercent": 0
+          },
+          {
+            "topicId": "00eb382bcd6b4f81af89da40",
+            "topicName": "ACID, Serializability & 2PL",
+            "correct": 0,
+            "total": 1,
+            "accuracyPercent": 0
+          }
+        ],
+        "_id": "b2d2d3447a9c6af5d18c4581",
+        "createdAt": "2026-11-18T02:14:58.462Z",
+        "updatedAt": "2026-11-18T02:14:58.462Z"
+      },
+      {
+        "userId": "5a11d1833ef2723b026f371b",
+        "mockTestId": "e13b9af733078383ad4083f9",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "semesterId": "e8c7264a5f6f198477166cb7",
+        "subjectId": "b453e012177c4ea603eea005",
+        "startedAt": "2026-11-18T02:15:29.605Z",
+        "submittedAt": "2026-11-18T02:15:29.610Z",
+        "timeSpentSeconds": 30,
+        "submissionReason": "manual",
+        "answers": [
+          {
+            "questionId": "b59bb81b33677ee0b332f210",
+            "userAnswer": "First-Come First-Served (FCFS)",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": false,
+            "awardedMarks": 0,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded",
+            "reviewerComment": ""
+          },
+          {
+            "questionId": "43f60202584f8e02be365693",
+            "userAnswer": "",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": false,
+            "awardedMarks": 0,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded",
+            "reviewerComment": ""
+          },
+          {
+            "questionId": "38e8743e197f1b7c65c35dca",
+            "userAnswer": "",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": false,
+            "awardedMarks": 0,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded",
+            "reviewerComment": ""
+          },
+          {
+            "questionId": "aa2d85867ce444f2f6a70c5c",
+            "userAnswer": "",
+            "markedForReview": false,
+            "isObjective": true,
+            "isCorrect": false,
+            "awardedMarks": 0,
+            "maxMarks": 2,
+            "evaluationStatus": "auto_graded",
+            "reviewerComment": ""
+          }
+        ],
+        "objectiveScore": 0,
+        "objectiveMaxScore": 8,
+        "descriptiveScore": 0,
+        "descriptiveMaxScore": 0,
+        "totalAwardedScore": 0,
+        "totalMaxScore": 8,
+        "percentage": 0,
+        "hasPendingDescriptiveReview": false,
+        "descriptiveEvaluationStatus": "not_applicable",
+        "topicBreakdown": [
+          {
+            "topicId": "4ac555589add0f649e1b71e5",
+            "topicName": "CPU Scheduling Algorithms",
+            "correct": 0,
+            "total": 1,
+            "accuracyPercent": 0
+          },
+          {
+            "topicId": "fbe851a04282ea7b9d76ce41",
+            "topicName": "Virtual Memory & Page Replacement",
+            "correct": 0,
+            "total": 1,
+            "accuracyPercent": 0
+          },
+          {
+            "topicId": "24235061747d4543674eef86",
+            "topicName": "Normalization & Functional Dependencies",
+            "correct": 0,
+            "total": 1,
+            "accuracyPercent": 0
+          },
+          {
+            "topicId": "00eb382bcd6b4f81af89da40",
+            "topicName": "ACID, Serializability & 2PL",
+            "correct": 0,
+            "total": 1,
+            "accuracyPercent": 0
+          }
+        ],
+        "_id": "256bd3abf1bd5cf4a25dcf59",
+        "createdAt": "2026-11-18T02:15:29.610Z",
+        "updatedAt": "2026-11-18T02:15:29.610Z"
+      }
+    ],
+    "Solution": [
+      {
+        "pyqPaperId": "4a23828b419777d4ba1f66ad",
+        "subjectId": "b453e012177c4ea603eea005",
+        "topicId": "81c8d1c1c731b888b9fc3a24",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "title": "Banker’s Algorithm Safety Sequence & Need Matrix Derivation",
+        "questionReference": "BCS401-2025 · Section C · Q3(a)",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "heading": "Compute the Need Matrix",
+            "content": "For each process Pi and resource Rj, compute Need[i][j] = Max[i][j] - Allocation[i][j]."
+          },
+          {
+            "stepNumber": 2,
+            "heading": "Initialize Work and Finish Vectors",
+            "content": "Set Work = Available vector and Finish[i] = false for all i = 0..n-1."
+          },
+          {
+            "stepNumber": 3,
+            "heading": "Find Executable Process",
+            "content": "Select Pi where Finish[i] == false and Need[i] <= Work. Update Work = Work + Allocation[i] and Finish[i] = true."
+          },
+          {
+            "stepNumber": 4,
+            "heading": "Verify Safe Sequence",
+            "content": "Since all processes finish cleanly in sequence <P1, P3, P4, P0, P2>, the system is in a safe state."
+          }
+        ],
+        "finalAnswerSummary": "Safe sequence exists: <P1, P3, P4, P0, P2>. Additional request for P1 can be granted immediately.",
+        "verificationStatus": "verified",
+        "reviewerId": "d6a789289f54fe65a7c36104",
+        "reviewerName": "Dr. Kavita Nair",
+        "lastReviewedAt": "2026-11-12T17:31:10.324Z",
+        "currentVersion": 2,
+        "isSampleFree": true,
+        "versionHistory": [
+          {
+            "version": 1,
+            "updatedBy": "Priya Verma",
+            "updatedAt": "2026-11-09T17:31:10.324Z",
+            "changeNote": "Initial step-by-step submission",
+            "verificationStatus": "under_review"
+          },
+          {
+            "version": 2,
+            "updatedBy": "Dr. Kavita Nair",
+            "updatedAt": "2026-11-12T17:31:10.324Z",
+            "changeNote": "Verified matrix arithmetic against AKTU marking scheme",
+            "verificationStatus": "verified"
+          }
+        ],
+        "_id": "5f7ba6ac7550ebbadc6ef7ba",
+        "createdAt": "2026-11-17T17:31:10.324Z",
+        "updatedAt": "2026-11-17T17:31:10.324Z"
+      },
+      {
+        "pyqPaperId": "ba08109dd972e3172ead752b",
+        "subjectId": "b6755a7df3ecb177483bf5e8",
+        "topicId": "24235061747d4543674eef86",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "title": "Lossless & Dependency-Preserving BCNF Decomposition",
+        "questionReference": "BCS402-2025 · Section B · Q2(b)",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "heading": "Find Candidate Keys",
+            "content": "Compute attribute closures from the given FD set F = {AB -> C, C -> D, D -> A}. Candidate keys are AB, BC, BD."
+          },
+          {
+            "stepNumber": 2,
+            "heading": "Identify BCNF Violations",
+            "content": "Check each FD X -> Y. C -> D violates BCNF because C is not a superkey."
+          },
+          {
+            "stepNumber": 3,
+            "heading": "Decompose Iteratively",
+            "content": "Split R into R1(C, D) and R2(A, B, C). Verify lossless join via common attribute C being key of R1."
+          }
+        ],
+        "finalAnswerSummary": "Decomposed tables R1(C,D), R2(D,A), R3(A,B,C) satisfy BCNF with lossless join.",
+        "verificationStatus": "verified",
+        "reviewerId": "d6a789289f54fe65a7c36104",
+        "reviewerName": "Dr. Kavita Nair",
+        "lastReviewedAt": "2026-11-14T17:31:10.325Z",
+        "currentVersion": 1,
+        "isSampleFree": true,
+        "versionHistory": [
+          {
+            "version": 1,
+            "updatedBy": "Dr. Kavita Nair",
+            "updatedAt": "2026-11-14T17:31:10.325Z",
+            "changeNote": "Reviewed and approved",
+            "verificationStatus": "verified"
+          }
+        ],
+        "_id": "26aeb661bdd0d35125d8fd10",
+        "createdAt": "2026-11-17T17:31:10.325Z",
+        "updatedAt": "2026-11-17T17:31:10.325Z"
+      },
+      {
+        "pyqPaperId": "e252914fda0603f644958638",
+        "subjectId": "6f2e4bec341131cae49346f7",
+        "topicId": "2fa802df4c3f388ae6afad24",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "title": "CFG to Chomsky Normal Form (CNF) Transformation",
+        "questionReference": "BCS403-2024 · Section C · Q4(a)",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "heading": "Eliminate Null & Unit Productions",
+            "content": "Remove nullable symbols and unit rules A -> B cleanly."
+          },
+          {
+            "stepNumber": 2,
+            "heading": "Introduce New Non-Terminals",
+            "content": "Replace terminals inside rules of length >= 2 and split chains into binary rules."
+          }
+        ],
+        "finalAnswerSummary": "Draft solution awaiting final academic reviewer sign-off.",
+        "verificationStatus": "under_review",
+        "reviewerId": "d6a789289f54fe65a7c36104",
+        "reviewerName": "Pending Verification",
+        "currentVersion": 1,
+        "isSampleFree": false,
+        "versionHistory": [
+          {
+            "version": 1,
+            "updatedBy": "Priya Verma",
+            "updatedAt": "2026-11-16T17:31:10.325Z",
+            "changeNote": "Submitted for peer verification",
+            "verificationStatus": "under_review"
+          }
+        ],
+        "_id": "64f902476affe03aeef6c6cc",
+        "lastReviewedAt": null,
+        "createdAt": "2026-11-17T17:31:10.325Z",
+        "updatedAt": "2026-11-17T17:31:10.325Z"
+      }
+    ],
+    "ContributorProfile": [
+      {
+        "userId": "27c8080d9c24d8e313cb2878",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "branchId": "908afa8a1d74fb912889c6ca",
+        "collegeName": "AKGEC Ghaziabad",
+        "upiId": "priya.verma@okaxis",
+        "assignedCampusLeadId": "843a29c3b4095359b9491b2f",
+        "status": "active",
+        "totalSubmissions": 3,
+        "approvedSubmissions": 2,
+        "_id": "f8eba4f92cbc25ff8ae0d5b5",
+        "createdAt": "2026-11-17T17:31:10.326Z",
+        "updatedAt": "2026-11-18T02:15:29.668Z"
+      }
+    ],
+    "ResourceSubmission": [
+      {
+        "contributorId": "27c8080d9c24d8e313cb2878",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "branchId": "908afa8a1d74fb912889c6ca",
+        "semesterId": "e8c7264a5f6f198477166cb7",
+        "curriculumSchemeId": "97e19a64adf977ec695eced4",
+        "subjectId": "b453e012177c4ea603eea005",
+        "resourceType": "pyq_paper",
+        "title": "Operating Systems End-Sem Paper 2025 (Clean Scan)",
+        "examYear": 2025,
+        "examSession": "Even Semester",
+        "paperCode": "BCS401-2025",
+        "sourceDescription": "College library physical examination booklet scanned at 300 DPI",
+        "rightsDeclarationAccepted": true,
+        "notLeakedOrUnreleasedAttested": true,
+        "originalFilename": "BCS401_2025_OS.pdf",
+        "status": "approved",
+        "assignedReviewerId": "d6a789289f54fe65a7c36104",
+        "reviewerNotes": "Crisp scan, all 3 sections legible, university & semester verified.",
+        "rewardAmountInr": 15,
+        "publishedPyqId": "4a23828b419777d4ba1f66ad",
+        "_id": "0bc9a9acadb64af0afa2eff1",
+        "fileUrl": "",
+        "fileHash": "",
+        "duplicateWarning": "",
+        "createdAt": "2026-11-17T17:31:10.326Z",
+        "updatedAt": "2026-11-17T17:31:10.326Z"
+      },
+      {
+        "contributorId": "27c8080d9c24d8e313cb2878",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "branchId": "908afa8a1d74fb912889c6ca",
+        "semesterId": "e8c7264a5f6f198477166cb7",
+        "curriculumSchemeId": "97e19a64adf977ec695eced4",
+        "subjectId": "b6755a7df3ecb177483bf5e8",
+        "resourceType": "revision_notes",
+        "title": "DBMS Normalization & B+ Tree Condensed Revision Guide",
+        "examYear": 2025,
+        "examSession": "Even Semester",
+        "paperCode": "BCS402-NOTES",
+        "sourceDescription": "Original handwritten & typed notes authored by contributor",
+        "rightsDeclarationAccepted": true,
+        "notLeakedOrUnreleasedAttested": true,
+        "originalFilename": "DBMS_Unit3_4_Notes.pdf",
+        "status": "approved",
+        "assignedReviewerId": "d6a789289f54fe65a7c36104",
+        "reviewerNotes": "Original concise derivations verified.",
+        "rewardAmountInr": 35,
+        "_id": "6871875323d5dbaa2855263f",
+        "fileUrl": "",
+        "fileHash": "",
+        "duplicateWarning": "",
+        "publishedPyqId": null,
+        "createdAt": "2026-11-17T17:31:10.327Z",
+        "updatedAt": "2026-11-17T17:31:10.327Z"
+      },
+      {
+        "contributorId": "27c8080d9c24d8e313cb2878",
+        "universityId": "e89cb993ae3c3ce41cf3e4ad",
+        "programmeId": "42c6bdd221181793a280971b",
+        "branchId": "908afa8a1d74fb912889c6ca",
+        "semesterId": "e8c7264a5f6f198477166cb7",
+        "curriculumSchemeId": "97e19a64adf977ec695eced4",
+        "subjectId": "6f2e4bec341131cae49346f7",
+        "resourceType": "pyq_paper",
+        "title": "TAFL Back Paper Question Set 2024",
+        "examYear": 2024,
+        "examSession": "Back Paper",
+        "paperCode": "BCS403-BP-2024",
+        "sourceDescription": "AKTU official odd/back paper booklet",
+        "rightsDeclarationAccepted": true,
+        "notLeakedOrUnreleasedAttested": true,
+        "originalFilename": "BCS403_Back_2024.pdf",
+        "status": "under_review",
+        "assignedReviewerId": "d6a789289f54fe65a7c36104",
+        "rewardAmountInr": 15,
+        "_id": "7befc4f10459545ee1cd3af4",
+        "fileUrl": "",
+        "fileHash": "",
+        "duplicateWarning": "",
+        "reviewerNotes": "",
+        "publishedPyqId": null,
+        "createdAt": "2026-11-17T17:31:10.328Z",
+        "updatedAt": "2026-11-17T17:31:10.328Z"
+      }
+    ],
+    "RewardLedger": [
+      {
+        "contributorId": "27c8080d9c24d8e313cb2878",
+        "submissionId": "0bc9a9acadb64af0afa2eff1",
+        "resourceType": "pyq_paper",
+        "amountInr": 15,
+        "status": "approved",
+        "notes": "Approved PYQ paper reward",
+        "_id": "b56e370131c004252e355a43",
+        "payoutId": null,
+        "createdAt": "2026-11-17T17:31:10.328Z",
+        "updatedAt": "2026-11-17T17:31:10.328Z"
+      },
+      {
+        "contributorId": "27c8080d9c24d8e313cb2878",
+        "submissionId": "6871875323d5dbaa2855263f",
+        "resourceType": "revision_notes",
+        "amountInr": 35,
+        "status": "approved",
+        "notes": "Original revision notes reward",
+        "_id": "bd032d9f892a9e34c8ac3973",
+        "payoutId": null,
+        "createdAt": "2026-11-17T17:31:10.344Z",
+        "updatedAt": "2026-11-17T17:31:10.344Z"
+      },
+      {
+        "contributorId": "27c8080d9c24d8e313cb2878",
+        "submissionId": "7befc4f10459545ee1cd3af4",
+        "resourceType": "pyq_paper",
+        "amountInr": 15,
+        "status": "pending",
+        "notes": "Pending reviewer sign-off (not withdrawable until approved)",
+        "_id": "6250b99106f0a3e24f203bdc",
+        "payoutId": null,
+        "createdAt": "2026-11-17T17:31:10.344Z",
+        "updatedAt": "2026-11-17T17:31:10.344Z"
+      }
+    ],
+    "Review": [
+      {
+        "targetType": "submission",
+        "targetId": "0bc9a9acadb64af0afa2eff1",
+        "reviewerId": "d6a789289f54fe65a7c36104",
+        "reviewerName": "Dr. Kavita Nair",
+        "decision": "approved",
+        "checklist": {
+          "universityMappingVerified": true,
+          "readabilityChecked": true,
+          "authenticityChecked": true,
+          "permissionsCleared": true
+        },
+        "comments": "Verified against AKTU BCS-2022 curriculum scheme.",
+        "versionNumber": 1,
+        "_id": "21493092b792b7e9fca1f957",
+        "createdAt": "2026-11-17T17:31:10.345Z",
+        "updatedAt": "2026-11-17T17:31:10.345Z"
+      }
+    ],
+    "Notification": [
+      {
+        "userId": "5a11d1833ef2723b026f371b",
+        "type": "new_resource",
+        "title": "New Verified PYQ Added",
+        "message": "Operating Systems BCS401 (2025 Even Semester) is now available with verified Banker’s Algorithm solution.",
+        "link": "/student/pyqs",
+        "_id": "06c54e6cdbe826ce431c6cd3",
+        "isRead": false,
+        "createdAt": "2026-11-17T17:31:10.345Z",
+        "updatedAt": "2026-11-17T17:31:10.345Z"
+      },
+      {
+        "userId": "5a11d1833ef2723b026f371b",
+        "type": "test_reminder",
+        "title": "Resume Your DBMS Practice",
+        "message": "Your recent attempt showed 0% on ACID & Serializability. Try the targeted DBMS questions.",
+        "link": "/student/tests",
+        "_id": "f1ea1c4f8a8b84ea59456920",
+        "isRead": false,
+        "createdAt": "2026-11-17T17:31:10.346Z",
+        "updatedAt": "2026-11-17T17:31:10.346Z"
+      },
+      {
+        "userId": "27c8080d9c24d8e313cb2878",
+        "type": "reward_approved",
+        "title": "₹35 Reward Credited to Approved Balance",
+        "message": "Your DBMS Normalization Revision Guide passed academic verification.",
+        "link": "/contributor",
+        "_id": "58f161fc721cd56316aff51d",
+        "isRead": false,
+        "createdAt": "2026-11-17T17:31:10.347Z",
+        "updatedAt": "2026-11-17T17:31:10.347Z"
+      },
+      {
+        "userId": "2c157378a1f6131e6a414279",
+        "type": "system",
+        "title": "Welcome to UNIHUB",
+        "message": "Complete your university and semester profile to unlock curriculum-matched resources.",
+        "link": "/onboarding",
+        "isRead": false,
+        "_id": "150a3ad8efd4db5d77b275e7",
+        "createdAt": "2026-11-18T02:14:04.684Z",
+        "updatedAt": "2026-11-18T02:14:04.684Z"
+      },
+      {
+        "userId": "dd4d06946f6108438d44a3e2",
+        "type": "system",
+        "title": "Welcome to UNIHUB",
+        "message": "Complete your university and semester profile to unlock curriculum-matched resources.",
+        "link": "/onboarding",
+        "isRead": false,
+        "_id": "d55a3106e9c0f858f10f6513",
+        "createdAt": "2026-11-18T02:14:20.512Z",
+        "updatedAt": "2026-11-18T02:14:20.512Z"
+      },
+      {
+        "userId": "e7ddfdd7a0dd0ac57bc7ca9e",
+        "type": "system",
+        "title": "Welcome to UNIHUB",
+        "message": "Complete your university and semester profile to unlock curriculum-matched resources.",
+        "link": "/onboarding",
+        "isRead": false,
+        "_id": "c55fe4879a307e72080ce97f",
+        "createdAt": "2026-11-18T02:14:40.940Z",
+        "updatedAt": "2026-11-18T02:14:40.940Z"
+      },
+      {
+        "userId": "e7ddfdd7a0dd0ac57bc7ca9e",
+        "type": "payment_confirmation",
+        "title": "Semester PYQ Pass Activated",
+        "message": "Payment of ₹99 verified (Receipt UH-2026-5171). Valid until 17/5/2027.",
+        "link": "/student/packages",
+        "isRead": false,
+        "_id": "9e530728637315aa71c490eb",
+        "createdAt": "2026-11-18T02:14:41.480Z",
+        "updatedAt": "2026-11-18T02:14:41.480Z"
+      },
+      {
+        "userId": "6c719c2b4951f9405a977c3c",
+        "type": "system",
+        "title": "Welcome to UNIHUB",
+        "message": "Complete your university and semester profile to unlock curriculum-matched resources.",
+        "link": "/onboarding",
+        "isRead": false,
+        "_id": "6b305ed36c40f08f3f35d439",
+        "createdAt": "2026-11-18T02:14:57.921Z",
+        "updatedAt": "2026-11-18T02:14:57.921Z"
+      },
+      {
+        "userId": "6c719c2b4951f9405a977c3c",
+        "type": "payment_confirmation",
+        "title": "Semester PYQ Pass Activated",
+        "message": "Payment of ₹99 verified (Receipt UH-2026-6193). Valid until 17/5/2027.",
+        "link": "/student/packages",
+        "isRead": false,
+        "_id": "779aed8ea273b9c88d5beb57",
+        "createdAt": "2026-11-18T02:14:58.487Z",
+        "updatedAt": "2026-11-18T02:14:58.487Z"
+      },
+      {
+        "userId": "46050e5c5fb2c917e6abd7c9",
+        "type": "system",
+        "title": "Welcome to UNIHUB",
+        "message": "Complete your university and semester profile to unlock curriculum-matched resources.",
+        "link": "/onboarding",
+        "isRead": false,
+        "_id": "dd3389fee5bcd123e3f43c1d",
+        "createdAt": "2026-11-18T02:15:29.065Z",
+        "updatedAt": "2026-11-18T02:15:29.065Z"
+      },
+      {
+        "userId": "46050e5c5fb2c917e6abd7c9",
+        "type": "payment_confirmation",
+        "title": "Semester PYQ Pass Activated",
+        "message": "Payment of ₹99 verified (Receipt UH-2026-2256). Valid until 17/5/2027.",
+        "link": "/student/packages",
+        "isRead": false,
+        "_id": "9edbc5a23287d74a6e713916",
+        "createdAt": "2026-11-18T02:15:29.636Z",
+        "updatedAt": "2026-11-18T02:15:29.636Z"
+      }
+    ],
+    "AuditLog": [
+      {
+        "actorId": "d551e6fe220a787ee5aa2ba7",
+        "actorEmail": "admin@unihub.edu",
+        "actorRole": "admin",
+        "action": "SYSTEM_SEED",
+        "entityType": "Platform",
+        "summary": "Initialized UNIHUB academic catalogue, sample PYQs, mock tests, and role accounts.",
+        "_id": "cb2d529fa01f98f69b3590d5",
+        "entityId": "",
+        "metadata": {},
+        "createdAt": "2026-11-17T17:31:10.348Z",
+        "updatedAt": "2026-11-17T17:31:10.348Z"
+      },
+      {
+        "actorId": "2c157378a1f6131e6a414279",
+        "actorEmail": "qa_1794968044301@aktu.ac.in",
+        "actorRole": "student",
+        "action": "USER_REGISTERED",
+        "entityType": "User",
+        "entityId": "2c157378a1f6131e6a414279",
+        "summary": "New student registered: qa_1794968044301@aktu.ac.in",
+        "metadata": {},
+        "_id": "4628dcebe09f0bfe5d8ddbc3",
+        "createdAt": "2026-11-18T02:14:04.685Z",
+        "updatedAt": "2026-11-18T02:14:04.685Z"
+      },
+      {
+        "actorId": "dd4d06946f6108438d44a3e2",
+        "actorEmail": "qa_1794968060342@aktu.ac.in",
+        "actorRole": "student",
+        "action": "USER_REGISTERED",
+        "entityType": "User",
+        "entityId": "dd4d06946f6108438d44a3e2",
+        "summary": "New student registered: qa_1794968060342@aktu.ac.in",
+        "metadata": {},
+        "_id": "1e05e8410628eb748904617c",
+        "createdAt": "2026-11-18T02:14:20.513Z",
+        "updatedAt": "2026-11-18T02:14:20.513Z"
+      },
+      {
+        "actorId": "e7ddfdd7a0dd0ac57bc7ca9e",
+        "actorEmail": "qa_1794968080844@aktu.ac.in",
+        "actorRole": "student",
+        "action": "USER_REGISTERED",
+        "entityType": "User",
+        "entityId": "e7ddfdd7a0dd0ac57bc7ca9e",
+        "summary": "New student registered: qa_1794968080844@aktu.ac.in",
+        "metadata": {},
+        "_id": "d3791f5ec333e271acd1cb5a",
+        "createdAt": "2026-11-18T02:14:40.941Z",
+        "updatedAt": "2026-11-18T02:14:40.941Z"
+      },
+      {
+        "actorId": "e7ddfdd7a0dd0ac57bc7ca9e",
+        "actorEmail": "qa_1794968080844@aktu.ac.in",
+        "actorRole": "student",
+        "action": "PAYMENT_VERIFIED_ENTITLEMENT_ACTIVATED",
+        "entityType": "Entitlement",
+        "entityId": "0ab1317a6e79fa16da54fa50",
+        "summary": "Semester PYQ Pass activated for ₹99 (upgrade=false)",
+        "metadata": {},
+        "_id": "f274586aaa82d5e257900785",
+        "createdAt": "2026-11-18T02:14:41.481Z",
+        "updatedAt": "2026-11-18T02:14:41.481Z"
+      },
+      {
+        "actorId": "6c719c2b4951f9405a977c3c",
+        "actorEmail": "qa_1794968097805@aktu.ac.in",
+        "actorRole": "student",
+        "action": "USER_REGISTERED",
+        "entityType": "User",
+        "entityId": "6c719c2b4951f9405a977c3c",
+        "summary": "New student registered: qa_1794968097805@aktu.ac.in",
+        "metadata": {},
+        "_id": "c5414ad76394bb2845e9a9de",
+        "createdAt": "2026-11-18T02:14:57.922Z",
+        "updatedAt": "2026-11-18T02:14:57.922Z"
+      },
+      {
+        "actorId": "6c719c2b4951f9405a977c3c",
+        "actorEmail": "qa_1794968097805@aktu.ac.in",
+        "actorRole": "student",
+        "action": "PAYMENT_VERIFIED_ENTITLEMENT_ACTIVATED",
+        "entityType": "Entitlement",
+        "entityId": "567e9c48297c6e81581b125a",
+        "summary": "Semester PYQ Pass activated for ₹99 (upgrade=false)",
+        "metadata": {},
+        "_id": "616bcc74a27c76e353e4d43e",
+        "createdAt": "2026-11-18T02:14:58.489Z",
+        "updatedAt": "2026-11-18T02:14:58.489Z"
+      },
+      {
+        "actorId": "d551e6fe220a787ee5aa2ba7",
+        "actorEmail": "admin@unihub.edu",
+        "actorRole": "admin",
+        "action": "SUPPORT_MESSAGE_UPDATED",
+        "entityType": "ContactMessage",
+        "entityId": "ef7e832a47041e559d1c3db7",
+        "summary": "Marked support message as in_progress",
+        "metadata": {},
+        "_id": "163c1d0c0c5ecb936f91d070",
+        "createdAt": "2026-11-18T02:14:58.541Z",
+        "updatedAt": "2026-11-18T02:14:58.541Z"
+      },
+      {
+        "actorId": "46050e5c5fb2c917e6abd7c9",
+        "actorEmail": "qa_1794968128964@aktu.ac.in",
+        "actorRole": "student",
+        "action": "USER_REGISTERED",
+        "entityType": "User",
+        "entityId": "46050e5c5fb2c917e6abd7c9",
+        "summary": "New student registered: qa_1794968128964@aktu.ac.in",
+        "metadata": {},
+        "_id": "03ae40a92f1ea5d0485103f8",
+        "createdAt": "2026-11-18T02:15:29.069Z",
+        "updatedAt": "2026-11-18T02:15:29.069Z"
+      },
+      {
+        "actorId": "46050e5c5fb2c917e6abd7c9",
+        "actorEmail": "qa_1794968128964@aktu.ac.in",
+        "actorRole": "student",
+        "action": "PAYMENT_VERIFIED_ENTITLEMENT_ACTIVATED",
+        "entityType": "Entitlement",
+        "entityId": "80afdb9bd749cb326ffd4902",
+        "summary": "Semester PYQ Pass activated for ₹99 (upgrade=false)",
+        "metadata": {},
+        "_id": "979a7f4a621b28f244bae5f1",
+        "createdAt": "2026-11-18T02:15:29.636Z",
+        "updatedAt": "2026-11-18T02:15:29.636Z"
+      },
+      {
+        "actorId": "d551e6fe220a787ee5aa2ba7",
+        "actorEmail": "admin@unihub.edu",
+        "actorRole": "admin",
+        "action": "SUPPORT_MESSAGE_UPDATED",
+        "entityType": "ContactMessage",
+        "entityId": "bcaa5299a3cc97a4c02159a7",
+        "summary": "Marked support message as in_progress",
+        "metadata": {},
+        "_id": "c72eb663983871775bab57de",
+        "createdAt": "2026-11-18T02:15:29.695Z",
+        "updatedAt": "2026-11-18T02:15:29.695Z"
+      }
+    ],
+    "ContactMessage": [
+      {
+        "name": "QA Probe",
+        "email": "qa@unihub.edu",
+        "university": "",
+        "category": "general",
+        "message": "Automated end-to-end verification message.",
+        "_id": "93e3afa306bc1284f31a5b08",
+        "status": "new",
+        "createdAt": "2026-11-18T02:14:04.283Z",
+        "updatedAt": "2026-11-18T02:14:04.283Z"
+      },
+      {
+        "name": "QA Probe",
+        "email": "qa@unihub.edu",
+        "university": "",
+        "category": "general",
+        "message": "Automated end-to-end verification message.",
+        "_id": "48ca6978a6793da0ebcc1cb5",
+        "status": "new",
+        "createdAt": "2026-11-18T02:14:20.339Z",
+        "updatedAt": "2026-11-18T02:14:20.339Z"
+      },
+      {
+        "name": "QA Probe",
+        "email": "qa@unihub.edu",
+        "university": "",
+        "category": "general",
+        "message": "Automated end-to-end verification message.",
+        "_id": "e656a4e1ed3b471268276aea",
+        "status": "new",
+        "createdAt": "2026-11-18T02:14:40.841Z",
+        "updatedAt": "2026-11-18T02:14:40.841Z"
+      },
+      {
+        "name": "QA Probe",
+        "email": "qa@unihub.edu",
+        "university": "",
+        "category": "general",
+        "message": "Automated end-to-end verification message.",
+        "_id": "ca45e65f24b7d8d3e512f384",
+        "status": "new",
+        "createdAt": "2026-11-18T02:14:57.800Z",
+        "updatedAt": "2026-11-18T02:14:57.800Z"
+      },
+      {
+        "name": "Rohan Mehta",
+        "email": "rohan.mehta@ipu.ac.in",
+        "university": "Campus Chapter",
+        "category": "campus_feedback",
+        "message": "QA curriculum check feedback",
+        "status": "in_progress",
+        "_id": "ef7e832a47041e559d1c3db7",
+        "createdAt": "2026-11-18T02:14:58.522Z",
+        "updatedAt": "2026-11-18T02:14:58.540Z"
+      },
+      {
+        "name": "QA Probe",
+        "email": "qa@unihub.edu",
+        "university": "",
+        "category": "general",
+        "message": "Automated end-to-end verification message.",
+        "_id": "3131de2bb28da509b1b73301",
+        "status": "new",
+        "createdAt": "2026-11-18T02:15:28.961Z",
+        "updatedAt": "2026-11-18T02:15:28.961Z"
+      },
+      {
+        "name": "Rohan Mehta",
+        "email": "rohan.mehta@ipu.ac.in",
+        "university": "Campus Chapter",
+        "category": "campus_feedback",
+        "message": "QA curriculum check feedback",
+        "status": "in_progress",
+        "_id": "bcaa5299a3cc97a4c02159a7",
+        "createdAt": "2026-11-18T02:15:29.678Z",
+        "updatedAt": "2026-11-18T02:15:29.694Z"
+      }
+    ],
+    "Payout": []
+  }
+}

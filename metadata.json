@@ -1,0 +1,6 @@
+{
+  "name": "UNIHUB",
+  "description": "Your University. Your Semester. Your Preparation. University-specific examination preparation platform with PYQs, mock tests, verified solutions, and historical trend analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
